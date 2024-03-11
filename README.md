@@ -10,9 +10,11 @@
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
-目前在知乎上进行写作
-想要在大三之前找到一个C/C++实习岗位
-想要做一个good first issue，也就是提交一个Pr
+## 目标
+
+- 在知乎上继续写作下去
+- 想要在大三之前找到一个C/C++实习岗位
+- 想要做一个good first issue，提交一个Pr，想对开源社区做一些贡献
 
 ## 个人项目
 
