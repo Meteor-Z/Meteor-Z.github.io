@@ -10,7 +10,7 @@
 
 - 主要是在知乎上进行写作(上面的Blog)
 - 目前在找C/C++相关的实习
-- 以下是我看过的书籍，视频，文章等，对我收获很大，都喜欢能读一读
+- 以下是我看过的书籍，视频，文章等，对我收获很大，希望能读一读
 
 ## 个人项目
 
@@ -19,6 +19,8 @@
   - 其他具体的可以访问github链接
 - [C/C++ Mini Debugger](https://github.com/Meteor-Z/debugger)
   - 使用`ptrace`函数调用进行调试代码，具体实现请看我写的这篇文章：[Linux下常用的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
+- [zzuli_gplt](https::/github.com/Meteor-Z/zzuli_gplt)
+  - 学弟写的，使用docker进行部署，写了相信的文档，换个学校，可以直接用 
 
 ## 提问的艺术
 
