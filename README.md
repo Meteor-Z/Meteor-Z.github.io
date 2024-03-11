@@ -1,26 +1,28 @@
 # 刘泽辰
 
+这是我的简易博客，相关文章可以看看，可能会解开你C/C++的迷惑
+
 - 学校：郑州轻工业大学
 - 专业：计算机科学与技术
 - 邮箱：<liuzechen.coder@qq.com>
 - 技能：C/C++，Linux爱好者
-- Blog：[Meteor-Z](https://www.zhihu.com/people/newlzc)
+- 知乎：[Meteor-Z](https://www.zhihu.com/people/newlzc)
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
-- 主要是在知乎上进行写作(上面的Blog)
-- 目前在找C/C++相关的实习
-- 以下是我看过的书籍，视频，文章等，对我收获很大，希望能读一读
+目前在知乎上进行写作
+想要在大三之前找到一个C/C++实习岗位
+想要做一个good first issue，也就是提交一个Pr
 
 ## 个人项目
 
 - [Tiny_rpc](https://github.com/Meteor-Z/tiny_rpc)
-  - 主要是学习了在Linux下C/C++开发流程
+  - 主要是学习了在Linux下C/C++ 网络开发的流程，算是一个实习项目吧
   - 其他具体的可以访问github链接
 - [C/C++ Mini Debugger](https://github.com/Meteor-Z/debugger)
   - 使用`ptrace`函数调用进行调试代码，具体实现请看我写的这篇文章：[Linux下常用的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
 - [zzuli_gplt](https::/github.com/Meteor-Z/zzuli_gplt)
-  - 学弟写的，使用docker进行部署，写了相信的文档，换个学校，可以直接用 
+  - 学弟写的，使用docker进行部署，我测试了代码和编写了详细的文档，换个学校，可以直接用
 
 ## 提问的艺术
 
