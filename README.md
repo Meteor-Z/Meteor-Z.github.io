@@ -50,6 +50,7 @@
 - [看懂火焰图，火焰图基本入门](https://www.ruanyifeng.com/blog/2017/09/flame-graph.html)
 - [内存模型](https://zhuanlan.zhihu.com/p/382372072)
 - [volatile和atomic的区别，以及volatile的应用](https://github.com/CnTransGroup/EffectiveModernCppChinese/blob/master/src/7.TheConcurrencyAPI/item40.md)
+- [grpc的快速入门](https://grpc.io/docs/languages/cpp/quickstart/)
 
 ## 视频
 
@@ -77,6 +78,8 @@
   - 只有200页，但是信息量巨大
 - Linux多线程服务端编程：使用muduo C++网络库
   - 陈硕的，非常不错
+- STL源码剖析
+  - 我觉得不错
 
 ## 博主
 
