@@ -16,16 +16,6 @@
 - 想要在大三之前找到一个C/C++实习岗位
 - 想要做一个good first issue，提交一个Pr，想对开源社区做一些贡献
 
-## 个人项目
-
-- [Tiny_rpc](https://github.com/Meteor-Z/tiny_rpc)
-  - 主要是学习了在Linux下C/C++ 网络开发的流程，算是一个实习项目吧
-  - 其他具体的可以访问github链接
-- [C/C++ Mini Debugger](https://github.com/Meteor-Z/debugger)
-  - 使用`ptrace`函数调用进行调试代码，具体实现请看我写的这篇文章：[Linux下常用的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
-- [zzuli_gplt](https::/github.com/Meteor-Z/zzuli_gplt)
-  - 学弟写的，使用docker进行部署，我测试了代码和编写了详细的文档，换个学校，可以直接用
-
 ## 提问的艺术
 
 - 在询问之前要在网络上进行搜索相关的问题，看自己能不能解决掉。
@@ -52,6 +42,7 @@
 - [volatile和atomic的区别，以及volatile的应用](https://github.com/CnTransGroup/EffectiveModernCppChinese/blob/master/src/7.TheConcurrencyAPI/item40.md)
 - [grpc的快速入门](https://grpc.io/docs/languages/cpp/quickstart/)
 - [xmake编译选项](https://zhuanlan.zhihu.com/p/548735186)
+- [brpc网站](https://brpc.apache.org/zh/)
 
 ## 视频
 
