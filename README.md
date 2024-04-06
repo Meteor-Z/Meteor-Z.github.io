@@ -43,6 +43,7 @@
 - [grpc的快速入门](https://grpc.io/docs/languages/cpp/quickstart/)
 - [xmake编译选项](https://zhuanlan.zhihu.com/p/548735186)
 - [brpc网站](https://brpc.apache.org/zh/)
+- [C++零成本抽象](https://zh.cppreference.com/w/cpp/language/Zero-overhead_principle)
 
 ## 视频
 
@@ -97,6 +98,7 @@
   - [cppinsights](https://cppinsights.io) 解糖用的
 - [知乎](https://www.zhihu.com)
 - [IEEE754计算](http://weitz.de/ieee)
+- [c++ quick-benchmark](https://quick-bench.com/)
 
 ## 第三方库
 
