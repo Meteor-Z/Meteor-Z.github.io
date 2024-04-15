@@ -44,7 +44,10 @@
 - [xmake编译选项](https://zhuanlan.zhihu.com/p/548735186)
 - [C++零成本抽象](https://zh.cppreference.com/w/cpp/language/Zero-overhead_principle)
 - [入门协程]()
-- [STL内存分配器](https://github.com/rongweihe/CPPNotes/blob/master/STL-source-code-notes/5%20%E5%8D%83%E5%AD%97%E9%95%BF%E6%96%87+%2030%20%E5%BC%A0%E5%9B%BE%E8%A7%A3-%E9%99%AA%E4%BD%A0%E6%89%8B%E6%92%95%20STL%20%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%99%A8%E6%BA%90%E7%A0%81.md)
+- 内存分配
+  - [STL内存分配器](https://github.com/rongweihe/CPPNotes/blob/master/STL-source-code-notes/5%20%E5%8D%83%E5%AD%97%E9%95%BF%E6%96%87+%2030%20%E5%BC%A0%E5%9B%BE%E8%A7%A3-%E9%99%AA%E4%BD%A0%E6%89%8B%E6%92%95%20STL%20%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%99%A8%E6%BA%90%E7%A0%81.md)
+  - [malloc中的mmap和sbrk](https://sploitfun.wordpress.com/2015/02/11/syscalls-used-by-malloc/)
+  - [了解 glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
 
 ## 视频
 
