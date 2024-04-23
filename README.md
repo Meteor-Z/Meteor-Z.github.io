@@ -23,6 +23,10 @@
 - 将代码粘贴到相关网站上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
 - 告知相关平台，并且如果有错误信息，也应该贴出来
 
+## 自己写的文章
+
+[Linux下常见的程序调试器gdb是什么原理](./post/gdb调试原理)
+
 ## 文章
 
 - [What every programmer should know about memory](https://zhuanlan.zhihu.com/p/611133924)（每一个程序员应该知道的内存知识）
