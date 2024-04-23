@@ -23,9 +23,12 @@
 - 将代码粘贴到相关网站上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
 - 告知相关平台，并且如果有错误信息，也应该贴出来
 
-## 自己写的文章
+## 文章/视频
 
-[Linux下常见的程序调试器gdb是什么原理](./post/gdb调试原理)
+- [大学期间编程的入门](https://b23.tv/R5fU2QI)
+- [Linux下常见的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
+- [在vscode中使用cmake + clangd 编写c++项目或算法竞赛](https://zhuanlan.zhihu.com/p/673706131)
+- [std::function的原理以及实现](https://zhuanlan.zhihu.com/p/681383322)
 
 ## 文章
 
@@ -80,7 +83,8 @@
   - 陈硕的，非常不错
 - STL源码剖析
   - 我觉得不错
-- Windows核心编程 windows的工具书
+- Windows核心编程
+  - windows的工具书
 
 ## 博主
 
