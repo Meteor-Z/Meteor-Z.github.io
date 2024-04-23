@@ -5,7 +5,7 @@
 - 学校：郑州轻工业大学
 - 专业：计算机科学与技术
 - 邮箱：<liuzechen.coder@qq.com>
-- 技能：C/C++，Linux爱好者
+- 标签：C/C++，Linux爱好者
 - 知乎：[Meteor-Z](https://www.zhihu.com/people/newlzc)
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
@@ -18,10 +18,10 @@
 
 ## 提问的艺术
 
-- 在询问之前要在网络上进行搜索相关的问题，看自己能不能解决掉。
+- 在询问之前要在网络上进行搜索相关的问题，看自己能不能解决掉
 - SSCCE: Short, Self Contained, Compilable, Example：代码要简短，并且可以完整运行
-- 将代码粘贴到相关网站上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图。
-- 告知相关平台，并且如果有错误信息，也应该贴出来，
+- 将代码粘贴到相关网站上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
+- 告知相关平台，并且如果有错误信息，也应该贴出来
 
 ## 文章
 
@@ -43,7 +43,6 @@
 - [grpc的快速入门](https://grpc.io/docs/languages/cpp/quickstart/)
 - [xmake编译选项](https://zhuanlan.zhihu.com/p/548735186)
 - [C++零成本抽象](https://zh.cppreference.com/w/cpp/language/Zero-overhead_principle)
-- [入门协程]()
 - 内存分配
   - [STL内存分配器](https://github.com/rongweihe/CPPNotes/blob/master/STL-source-code-notes/5%20%E5%8D%83%E5%AD%97%E9%95%BF%E6%96%87+%2030%20%E5%BC%A0%E5%9B%BE%E8%A7%A3-%E9%99%AA%E4%BD%A0%E6%89%8B%E6%92%95%20STL%20%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%99%A8%E6%BA%90%E7%A0%81.md)
   - [malloc中的mmap和sbrk](https://sploitfun.wordpress.com/2015/02/11/syscalls-used-by-malloc/)
@@ -77,6 +76,7 @@
   - 陈硕的，非常不错
 - STL源码剖析
   - 我觉得不错
+- Windows核心编程 windows的工具书
 
 ## 博主
 
@@ -113,5 +113,6 @@
 - [googletest](https://github.com/google/googletest): google的测试工具
 - [benchmark](https://github.com/google/benchmark): 测试相关速度的
 - [protobuf](https://github.com/protocolbuffers/protobuf): 传输序列化的
+- [grpc](https://github.com/grpc/grpc)
 
 ![Visitor Count](https://profile-counter.glitch.me/Meteor-Z/count.svg)
