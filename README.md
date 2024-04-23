@@ -54,6 +54,7 @@
   - [STL内存分配器](https://github.com/rongweihe/CPPNotes/blob/master/STL-source-code-notes/5%20%E5%8D%83%E5%AD%97%E9%95%BF%E6%96%87+%2030%20%E5%BC%A0%E5%9B%BE%E8%A7%A3-%E9%99%AA%E4%BD%A0%E6%89%8B%E6%92%95%20STL%20%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%99%A8%E6%BA%90%E7%A0%81.md)
   - [malloc中的mmap和sbrk](https://sploitfun.wordpress.com/2015/02/11/syscalls-used-by-malloc/)
   - [了解 glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
+- [4字节hash](https://burtleburtle.net/bob/hash/integer.html)
 
 ## 视频
 
@@ -110,8 +111,8 @@
   - [cppinsights](https://cppinsights.io) 解糖用的
 - [知乎](https://www.zhihu.com)
 - [IEEE754计算](http://weitz.de/ieee)
-- [c++ quick-benchmark](https://quick-bench.com/)
-- [brpc网站](https://brpc.apache.org/zh/): 比grpc好多了，官方文档十分详细
+- [c++ quick-benchmark](https://quick-bench.com/) 相当于一个benchmark
+- [brpc网站](https://brpc.apache.org/zh/) 比grpc好多了，官方文档十分详细
 
 ## 第三方库
 
@@ -121,6 +122,6 @@
 - [googletest](https://github.com/google/googletest): google的测试工具
 - [benchmark](https://github.com/google/benchmark): 测试相关速度的
 - [protobuf](https://github.com/protocolbuffers/protobuf): 传输序列化的
-- [grpc](https://github.com/grpc/grpc)
+- [grpc](https://github.com/grpc/grpc) google的rpc调用
 
 ![Visitor Count](https://profile-counter.glitch.me/Meteor-Z/count.svg)
