@@ -2,7 +2,7 @@ title: Meteor-Z.GitHub.com
 description: homepage
 google_analytics: 
 show_downloads: true
-theme: no-style-please
+theme: jekyll-theme-hacker
 
 gems:
-  - no-style-please
+  - jekyll-mentions
