@@ -6,5 +6,5 @@ show_downloads: true
 theme: no-style-please
 
 gems:
-  - jekyll-mentions
   - no-style-please
+  - jekyll-mentions
