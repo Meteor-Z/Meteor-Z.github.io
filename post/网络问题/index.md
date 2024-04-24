@@ -20,3 +20,4 @@ Host github.com
 ```shell
 ssh -T -p 443 git@ssh.github.com # 这是先用443端口来测试是否连接的通
 ssh -T git@github.com # 修改之后，用默认端口是否可以联通过去
+```

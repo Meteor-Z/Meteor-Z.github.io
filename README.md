@@ -10,7 +10,7 @@
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
-[这里是我的相关C/C++相关积累](./post/相关文章/index.md)
+[这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
 
 ## 我的作品
 
