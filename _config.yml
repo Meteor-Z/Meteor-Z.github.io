@@ -1,9 +1,9 @@
-title: Meteor-Z.GitHub.com
-description: homepage
+title: [Meteor-Z.GitHub.com]
+title: [The title of your site]
+description: 个人博客
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-hacker
 # theme: no-style-please
-
 gems:
   - jekyll-mentions
