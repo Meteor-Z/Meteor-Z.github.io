@@ -10,13 +10,15 @@
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
-## 我的作品
+[这里是我的相关C/C++相关积累](./post/相关文章/index.md)
 
+## 我的作品
 
 - [大学期间编程的入门](https://b23.tv/R5fU2QI)
 - [Linux下常见的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
 - [在vscode中使用cmake + clangd 编写c++项目或算法竞赛](https://zhuanlan.zhihu.com/p/673706131)
 - [std::function的原理以及实现](https://zhuanlan.zhihu.com/p/681383322)
+- [网络问题](./post/网络问题/index.md)
 
 ## 提问的艺术
 
@@ -33,6 +35,5 @@
 
 ## 积累
 
-[这里是我的相关C/C++相关积累](./post/相关文章/index.md)
 
 ![Visitor Count](https://profile-counter.glitch.me/Meteor-Z/count.svg)
