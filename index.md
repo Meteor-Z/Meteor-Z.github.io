@@ -11,7 +11,7 @@
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
 1. [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
-2. [客户端圣经]()
+2. [客户端圣经](./post/客户端圣经/index.md)
 
 ## 我的作品
 
