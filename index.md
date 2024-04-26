@@ -16,7 +16,7 @@
 1. [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
 2. [客户端圣经](./post/客户端圣经/index.md)
 
-## 我的作品
+## 文章/视频
 
 - [大学期间编程的入门](https://b23.tv/R5fU2QI)
 - [Linux下常见的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
