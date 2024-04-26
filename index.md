@@ -37,9 +37,6 @@
 - 想要在大三之前找到一个C/C++实习岗位
 - 想要做一个good first issue，提交一个Pr，想对开源社区做一些贡献
 
-![Visitor Count](https://profile-counter.glitch.me/Meteor-Z/count.svg)
-
-test
 <span id="busuanzi_container_site_uv">
   本站访客数<span id="busuanzi_value_site_uv"></span>人次
 </span>
