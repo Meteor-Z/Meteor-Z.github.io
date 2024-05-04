@@ -15,6 +15,8 @@
 
 1. [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
 2. [客户端圣经](./post/客户端圣经/index.md)
+3. [软件清单](./post/软件清单/index.md)
+4. [网络问题](./post/网络问题/index.md)
 
 ## 文章/视频
 
@@ -22,7 +24,6 @@
 - [Linux下常见的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
 - [在vscode中使用cmake + clangd 编写c++项目或算法竞赛](https://zhuanlan.zhihu.com/p/673706131)
 - [std::function的原理以及实现](https://zhuanlan.zhihu.com/p/681383322)
-- [网络问题](./post/网络问题/index.md)
 
 ## 提问的艺术
 
