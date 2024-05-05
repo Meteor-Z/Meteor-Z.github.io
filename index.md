@@ -13,10 +13,16 @@
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
-1. [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
-2. [客户端圣经](./post/客户端圣经/index.md)
-3. [软件清单](./post/软件清单/index.md)
-4. [网络问题](./post/网络问题/index.md)
+- [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
+- [客户端圣经](./post/客户端圣经/index.md)
+
+<details>
+<summary>总结的相关技巧？</summary>
+
+- [软件清单](./post/软件清单/index.md)
+- [网络问题](./post/网络问题/index.md)
+
+</details>
 
 ## 文章/视频
 
