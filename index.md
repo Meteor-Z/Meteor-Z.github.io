@@ -16,11 +16,9 @@
 - [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
 - [客户端圣经](./post/客户端圣经/index.md)
 
-<details>
-<summary>总结的相关技巧？</summary>
-
-- [软件清单](./post/软件清单/index.md)
-- [网络问题](./post/网络问题/index.md)
+- 总结的相关配置
+  - [软件清单](./post/软件清单/index.md)
+  - [网络问题](./post/网络问题/index.md)
 
 </details>
 
