@@ -83,6 +83,7 @@
 - [IEEE754计算](http://weitz.de/ieee)
 - [c++ quick-benchmark](https://quick-bench.com/) 相当于一个benchmark
 - [brpc网站](https://brpc.apache.org/zh/) 比grpc好多了，官方文档十分详细
+- [Touying typst](https://touying-typ.github.io/touying/zh/) typst写相关ppt的，感觉非常不错
 
 ## 第三方库
 
