@@ -18,9 +18,16 @@ scoop install gdb
 scoop install git
 ```
 
+- OpenArk 软件测试，逆向等工具集
+- QQ 微信 企业微信 腾讯会议 聊天办公软件
+- VS Vscode
+- 网易云音乐
+- Office
+- Clash
+
 ### Linux
 
-在Wsl上更加推荐 Ubuntu 24.04 LTS 版本，以下是相关软件
+我现在使用的是Wsl，在Wsl上更加推荐 Ubuntu 24.04 LTS 版本，以下是相关软件
 
 ```shell
 sudo apt install zsh
