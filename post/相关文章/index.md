@@ -25,6 +25,8 @@
   - [malloc中的mmap和sbrk](https://sploitfun.wordpress.com/2015/02/11/syscalls-used-by-malloc/)
   - [了解 glibc malloc](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
 - [4字节hash](https://burtleburtle.net/bob/hash/integer.html)
+- Windows编程相关
+  - [创建和演练DLL](https://learn.microsoft.com/zh-cn/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=msvc-170)
 
 ## 视频
 
