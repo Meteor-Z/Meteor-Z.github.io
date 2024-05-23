@@ -25,6 +25,7 @@ scoop install git
 - 网易云音乐
 - Office
 - Clash
+- [Sysinternals实用工具集](https://learn.microsoft.com/zh-cn/sysinternals/downloads/)
 
 ### Linux
 
