@@ -15,6 +15,7 @@
 
 - 总结的相关配置
   - [软件清单](./post/软件清单/index.md)
+  - [软件使用清单](./post/软件使用清单/index.md)
   - [网络问题](./post/网络问题/index.md)
 
 </details>
