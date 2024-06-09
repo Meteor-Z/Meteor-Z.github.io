@@ -18,6 +18,7 @@ scoop install gdb
 scoop install git
 ```
 
+- [客户端软件清单](./客户端软件清单/index.md)
 - powershell，Windows Terminal 配置环境
 - OpenArk 软件测试，逆向等工具集
 - QQ 微信 企业微信 腾讯会议 聊天办公软件
