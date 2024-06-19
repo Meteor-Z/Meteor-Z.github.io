@@ -6,4 +6,6 @@
 - WinGbg：主要是调试Dump文件的，相关命令准备写一篇知乎
 - [微软实用工具索引](https://learn.microsoft.com/zh-cn/sysinternals/downloads/)
   - procex：相当于任务管理器Plus
-- Spxx：微软调试窗口的工具，继承在VS中
+- Spxx：微软调试窗口的工具，继承在VS中'
+- api-monitor：API监控工具
+- IDA: 看汇编的
