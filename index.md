@@ -18,8 +18,6 @@
   - [软件使用清单](./post/软件使用清单/index.md)
   - [网络问题](./post/网络问题/index.md)
 
-</details>
-
 ## 文章/视频
 
 - [大学期间编程的入门](https://b23.tv/R5fU2QI)
