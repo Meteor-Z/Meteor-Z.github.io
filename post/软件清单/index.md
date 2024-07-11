@@ -18,6 +18,10 @@ scoop install gdb
 scoop install git
 ```
 
+- QQ，微信，腾讯会议
+- 网易云音乐
+- Office
+- Notepad--
 - [客户端软件清单](./客户端软件清单/index.md)
 - powershell，Windows Terminal 配置环境
 - OpenArk 软件测试，逆向等工具集
@@ -26,7 +30,13 @@ scoop install git
 - 网易云音乐
 - Office
 - Clash
-- [Sysinternals实用工具集](https://learn.microsoft.com/zh-cn/sysinternals/downloads/)
+- ugit：这玩意还是非常好用的
+- 彗星助手
+- Windbg：这玩意我感觉巨难用，但是不得不用
+- [微软实用工具索引](https://learn.microsoft.com/zh-cn/sysinternals/downloads/)
+- Spxx：微软调试窗口的工具，继承在VS中
+- api-monitor：API监控工具
+- IDA: 看汇编的
 
 ### Linux
 
