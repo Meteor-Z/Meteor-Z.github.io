@@ -12,8 +12,7 @@
 
 - [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
 - [客户端圣经](./post/客户端圣经/index.md)
-- [zzuli群组](http://zzuli.info)
-
+- [C++编码规范](./post/C++编码/index.md)
 - 总结的相关配置
   - [软件清单](./post/软件清单/index.md)
   - [软件使用清单](./post/软件使用清单/index.md)
