@@ -1,6 +1,7 @@
 # 软件清单
 
 一般开发是在Linux上，但是还是有挺多软件是在Windows上的，一下是相关的软件清单
+目前在Windows开发，因为是客户端的相关工作
 
 ## Windows
 
@@ -37,6 +38,8 @@ scoop install git
 - Spxx：微软调试窗口的工具，继承在VS中
 - api-monitor：API监控工具
 - IDA: 看汇编的
+- VS
+  - 相关插件：（待补充）
 
 ### Linux
 
