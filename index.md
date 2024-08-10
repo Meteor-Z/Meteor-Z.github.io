@@ -10,6 +10,8 @@
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
 
+目前正在找秋招工作，求求了，给个秋招工作把，qwq
+
 - [这里是我关于C/C++方向的相关积累](./post/相关文章/index.md)
 - [客户端圣经](./post/客户端圣经/index.md)
 - [C++编码规范](./post/C++编码/index.md)
