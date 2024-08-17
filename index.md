@@ -2,10 +2,11 @@
 
 简易博客
 
-- 学校：郑州轻工业大学
-- 专业：计算机科学与技术
-- 邮箱：<liuzechen.coder@qq.com>
-- 标签：C/C++，Linux爱好者
+- 郑州轻工业大学
+- 计算机科学与技术
+- <liuzechen.coder@qq.com>
+- C/C++，Linux爱好者
+- 客三消从业者
 - 知乎：[Meteor-Z](https://www.zhihu.com/people/newlzc)
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
@@ -36,6 +37,7 @@
 
 - 在知乎上继续写作下去
 - 想要在大三之前找到一个C/C++实习岗位
+- 目前正在进行秋招，哎，好难
 - 想要做一个good first issue，提交一个Pr，想对开源社区做一些贡献
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
