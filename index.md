@@ -6,7 +6,7 @@
 - 计算机科学与技术
 - <liuzechen.coder@qq.com>
 - C/C++，Linux爱好者
-- 客三消从业者
+- 客户端从业者
 - 知乎：[Meteor-Z](https://www.zhihu.com/people/newlzc)
 - Github: [Meteor-Z](https://github.com/Meteor-Z)
 - 个人笔记：[CS-notes](https://github.com/Meteor-Z/CS-notes)
