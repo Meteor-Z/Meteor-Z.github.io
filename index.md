@@ -1,9 +1,8 @@
 # 刘泽辰
 
-简易博客
+使用Github page 搭建的简易博客
 
-- 郑州轻工业大学
-- 计算机科学与技术
+- 郑州轻工业大学 计算机科学与技术
 - <liuzechen.coder@qq.com>
 - C/C++，Linux爱好者
 - 客户端从业者
@@ -23,10 +22,12 @@
 
 ## 文章/视频
 
+- [计算机大一新生入门指南 先輩の最強発言](https://zhuanlan.zhihu.com/p/712654833)
 - [大学期间编程的入门](https://b23.tv/R5fU2QI)
 - [Linux下常见的程序调试器gdb是什么原理](https://www.zhihu.com/question/578172542/answer/3389041105)
 - [在vscode中使用cmake + clangd 编写c++项目或算法竞赛](https://zhuanlan.zhihu.com/p/673706131)
 - [std::function的原理以及实现](https://zhuanlan.zhihu.com/p/681383322)
+- [Windows开发专栏](https://www.zhihu.com/column/c_1815799297058418689)
 
 ## 提问的艺术
 
