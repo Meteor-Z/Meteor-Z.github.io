@@ -1,12 +1,12 @@
-title: [Meteor-Z]
-description: 个人博客
-google_analytics: G-NYYLE6VW23
-show_downloads: true
-theme: jekyll-theme-hacker
-gems:
-  - jekyll-mentions
+# title: [Meteor-Z]
+# description: 个人博客
+# google_analytics: G-NYYLE6VW23
+# show_downloads: true
+# theme: jekyll-theme-hacker
+# gems:
+#   - jekyll-mentions
 
-author:
-name: [lzc]
-email: [liuzechen.coder@qq.com]
-url: [liuzechen.top]
+# author:
+# name: [lzc]
+# email: [liuzechen.coder@qq.com]
+# url: [liuzechen.top]
