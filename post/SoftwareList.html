@@ -91,9 +91,24 @@ sudo apt install rigrep
 <!-- 包含的对应的config.js-->
 <script src="/prism/prism.css"></script>
 <br>
-<script language=JavaScript>
-    document.write("最后更新时间: " + document.lastModified + "")
-    </script>
+<script language="JavaScript">
+    var lastModified = new Date(document.lastModified);
+    var year = lastModified.getFullYear();
+    var month = lastModified.getMonth() + 1; // 月份是从0开始的，所以加1
+    var date = lastModified.getDate();
+    var hours = lastModified.getHours();
+    var minutes = lastModified.getMinutes();
+    
+    // 补全0，例如1:5显示为01:05
+    if (hours < 10) {
+        hours = "0" + hours;
+    }
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+    }
+    
+    document.write("最后更新时间: " + year + "年" + month + "月" + date + "日 " + hours + "时" + minutes + "分");
+</script>
 </body>
 
 </html>
