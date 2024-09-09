@@ -12,7 +12,7 @@
 	<body>
         <h1>软件清单</h1>
         <a href="./../../index.html">返回</a>
-        <p>一般开发是在Linux上，但是还是有挺多软件是在Windows上的，以下是相关的软件清单。目前在Windows开发，因为是客户端的相关工作。</p>
+        <p>一般开发是在Linux上, 但是还是有挺多软件是在Windows上的，以下是相关的软件清单。目前在Windows开发，因为是客户端的相关工作。</p>
         <h2>Windows</h2>
         <h3>scoop</h3>
         <code>
@@ -58,13 +58,15 @@ scoop install git
         
         <h3>Zsh等安装</h3>
         
-        <code>
+        <pre code>
 sudo apt install zsh
 sh -c "$(curl -fsSL https://gitee.com/Devkings/oh_my_zsh_install/raw/master/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo)
-        </code>
+        <code></code>/pre>
+
+        <pre><code class="language-css">p { color: red }</code></pre>
         相关命令
         <code>
 sudo apt install gcc g++
@@ -81,6 +83,8 @@ sudo apt install rigrep
     
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_uv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
+<script src="/config.js"></script> 
 </body>
 
 </html>

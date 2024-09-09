@@ -1,3 +1,6 @@
+/* 导入其他的库  这里是prism的库 */
+@import url("/prism/prism.css");
+
 /* 超链接 */
 a:link, a:visited, a:hover, a:active {
     color: blue; /* 统一所有超链接的颜色 */
