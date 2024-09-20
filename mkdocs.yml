@@ -1,5 +1,5 @@
 site_name: Meteor-Z的博客
-
+site_url: liuzechen.top
 # 中文
 plugins:
   - blogging:
