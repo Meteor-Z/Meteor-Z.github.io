@@ -2,21 +2,20 @@ site_name: Meteor-Z 个人博客
 site_description: 个人博客
 site_author: 刘泽辰
 copyright: Metoer-Z
-repo_url: https://github.com/Meteor-Z
+repo_url: https://github.com/Meteor-Z/Meteor-Z.github.io
 site_url: http://liuzechen.top
 nav:
   - 文章:
-    - recommend.md
+    - Summarize.md
+    - ClientBible.md
   - 关于:
-    - index.md
+    - about.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
 plugins:
   - search
   - macros
   - print-site
-  - blogging:
-      locale: zh_CN
 theme: 
   name: mkdocs
   palette:
@@ -46,10 +45,11 @@ extra_javascript:
 extra_css: 
   - extra.css
 markdown_extensions:
+  - sane_lists
   - extra
   - tables
   - toc
   - fenced_code
-  - sane_lists
   - smarty
   - pymdownx.arithmatex
+  - mdx_truly_sane_lists # 支持嵌套列表的

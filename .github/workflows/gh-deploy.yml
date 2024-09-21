@@ -29,4 +29,5 @@ jobs:
       - run: pip install mkdocs-blogging-plugin 
       - run: pip install mkdocs-print-site-plugin
       - run: pip install mkdocs-macros-plugin
+      - run: pip install  mdx_truly_sane_lists # 嵌套列表的
       - run: mkdocs gh-deploy --force
