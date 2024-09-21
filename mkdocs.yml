@@ -9,8 +9,7 @@ nav:
     - Summarize.md
     - ClientBible.md
     - SoftwareList.md
-  - 关于:
-    - about.md
+    # - interview.md 还是隐藏了比较好
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
 plugins:
