@@ -8,6 +8,7 @@ nav:
   - 文章:
     - Summarize.md
     - ClientBible.md
+    - SoftwareList.md
   - 关于:
     - about.md
   - GitHub: https://github.com/Meteor-Z
@@ -39,6 +40,7 @@ theme:
     - python
     - rust
     - txt
+    - powershell
 extra_javascript:
   - extra.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
