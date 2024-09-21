@@ -3,6 +3,7 @@ site_description: 个人博客
 site_author: 刘泽辰
 copyright: Metoer-Z
 repo_url: https://github.com/Meteor-Z
+site_url: liuzechen.top
 nav:
   - 文章:
     - recommend.md
