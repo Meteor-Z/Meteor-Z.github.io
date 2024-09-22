@@ -67,6 +67,7 @@
 - C++
   - [cppreference](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5): 手册
   - [cppinsights](https://cppinsights.io): 解糖用的
+  - [stackoverflow](https://stackoverflow.com/) 非常牛逼
 - [知乎](https://www.zhihu.com)
 - [IEEE754计算](http://weitz.de/ieee)
 - [Quick-Bench](https://quick-bench.com/)
