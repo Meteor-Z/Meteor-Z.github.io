@@ -24,6 +24,13 @@
 - [C/C++ 学习专栏](https://www.zhihu.com/column/c_1820853519055454208)
 - [Windows开发专栏](https://www.zhihu.com/column/c_1815799297058418689)
 
+## 提问的艺术
+
+- 在询问之前要在网络上进行搜索相关的问题，看自己能不能解决掉
+- SSCCE: Short, Self Contained, Compilable, Example：代码要简短，并且可以完整运行
+- 将代码粘贴到相关网站([在线剪贴板](https://paste.nugine.xyz/))上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
+- 告知相关平台，并且如果有错误信息，也应该贴出来
+
 ## 名言警句
 
 - 代码易写不易工，纵横交错臭虫生。
