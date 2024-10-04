@@ -25,7 +25,8 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
+          # 下面是执行的相关插件，将所有的插件安装好之火，再将其push到gh-pages上
+      - run: pip install mkdocs-material # 执行的相关
       - run: pip install mkdocs-blogging-plugin 
       - run: pip install mkdocs-print-site-plugin
       - run: pip install mkdocs-macros-plugin

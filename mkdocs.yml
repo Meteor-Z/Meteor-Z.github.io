@@ -14,6 +14,7 @@ nav:
   - 其他:
     - interview.md 
     - client_bible.md
+    - web_build.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
 plugins:
