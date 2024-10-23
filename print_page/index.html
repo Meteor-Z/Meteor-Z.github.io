@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="刘泽辰">
+        <link rel="canonical" href="http://liuzechen.top/print_page/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Print Site - Meteor-Z 个人博客</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../css/print-site-enum-headings1.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings2.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings3.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings4.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings5.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings6.css" rel="stylesheet">
+        <link href="../css/print-site.css" rel="stylesheet">
+        <link href="../css/print-site-mkdocs.css" rel="stylesheet">
+        <link href="../extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/c.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/cmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/cpp.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/diff.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/llvm.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/nasm.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/txt.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/powershell.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Meteor-Z 个人博客</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">文章</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../summarize/" class="dropdown-item">学习资料总结</a>
+</li>
+                                    
+<li>
+    <a href="../software_list/" class="dropdown-item">软件清单</a>
+</li>
+                                    
+<li>
+    <a href="../network_problem/" class="dropdown-item">网络问题</a>
+</li>
+                                    
+<li>
+    <a href="../lecture/" class="dropdown-item">踩过的坑</a>
+</li>
+                                    
+<li>
+    <a href="../assembly_language/" class="dropdown-item">X86汇编</a>
+</li>
+                                    
+<li>
+    <a href="../classicpictures/" class="dropdown-item">经典图片</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">其他</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../interview/" class="dropdown-item">面试相关</a>
+</li>
+                                    
+<li>
+    <a href="../client_bible/" class="dropdown-item">客户端圣经</a>
+</li>
+                                    
+<li>
+    <a href="../web_build/" class="dropdown-item">网站构建</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/Meteor-Z" class="nav-link">GitHub</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.zhihu.com/people/newlzc" class="nav-link">知乎</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/Meteor-Z/Meteor-Z.github.io" class="nav-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="0"><a href="#section-文章" class="nav-link">I. 文章</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="1"><a href="#summarize" class="nav-link">1. 学习资料总结</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#software_list" class="nav-link">2. 软件清单</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#network_problem" class="nav-link">3. 网络问题</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#lecture" class="nav-link">4. 踩过的坑</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#assembly_language" class="nav-link">5. X86汇编</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#classicpictures" class="nav-link">6. 经典图片</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="0"><a href="#section-其他" class="nav-link">II. 其他</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="1"><a href="#interview" class="nav-link">7. 面试相关</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#client_bible" class="nav-link">8. 客户端圣经</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="1"><a href="#web_build" class="nav-link">9. 网站构建</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<div id="print-site-page" class="print-site-enumerate-headings print-site-enumerate-figures">
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="3">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Table of Contents</h1>
+                </nav>
+            </div>
+        </section>
+        
+                        <h1 class='nav-section-title' id='section-文章'>
+                            文章 <a class='headerlink' href='#section-文章' title='Permanent link'>↵</a>
+                        </h1>
+                        <section class="print-page" id="summarize"><h1 id="summarize-_1">学习资料总结</h1>
+<p>这是我以前看过的比较好的文章，总结了一下,希望对于你有所帮助</p>
+<h2 id="summarize-_2">文章</h2>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/611133924">What every programmer should know about memory（每一个程序员应该知道的内存知识）</a></li>
+<li><a href="https://tech.meituan.com/2020/12/10/apache-kylin-practice-in-meituan.html">C++服务编译耗时优化原理及实践</a></li>
+<li><a href="https://www.cnblogs.com/FraserYu/p/11192840.html">git merge 和 rebase 的 区别</a></li>
+<li><a href="https://www.zhihu.com/question/355171938/answer/899154458">for循环的时候要使用auto遍历的原因</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/673320830">浮点数误差</a></li>
+<li><a href="https://soft.xiaoshujiang.com/docs/grammar/feature/mermaid/#e59bbee8a1a8e696b9e59091_7">markdown中mermaid的用法</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/20752519">提问的艺术</a></li>
+<li><a href="http://blog.hostilefork.com/when-should-one-use-const-cast/">什么时候使用const_cast</a></li>
+<li><a href="https://stackoverflow.com/questions/238008/relative-performance-of-stdvector-vs-stdlist-vs-stdslist">为什么std::vector比std::list快</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/151038723">加入const为什么可以优化代码(取模运算)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/28322626">测试oj网站的cpu, 好有趣</a></li>
+<li><a href="https://linux.cn/article-8943-1.html">gdb的实现原理</a></li>
+<li><a href="https://www.ruanyifeng.com/blog/2017/09/flame-graph.html">看懂火焰图，火焰图基本入门</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/382372072">内存模型</a></li>
+<li><a href="https://github.com/CnTransGroup/EffectiveModernCppChinese/blob/master/src/7.TheConcurrencyAPI/item40.md">volatile和atomic的区别，以及volatile的应用</a></li>
+<li><a href="https://grpc.io/docs/languages/cpp/quickstart/">grpc的快速入门</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/548735186">xmake编译选项</a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/Zero-overhead_principle">C++零成本抽象</a></li>
+<li>内存分配<ul>
+<li><a href="https://github.com/rongweihe/CPPNotes/blob/master/STL-source-code-notes/5%20%E5%8D%83%E5%AD%97%E9%95%BF%E6%96%87+%2030%20%E5%BC%A0%E5%9B%BE%E8%A7%A3-%E9%99%AA%E4%BD%A0%E6%89%8B%E6%92%95%20STL%20%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%99%A8%E6%BA%90%E7%A0%81.md">STL内存分配器</a></li>
+<li><a href="https://sploitfun.wordpress.com/2015/02/11/syscalls-used-by-malloc/">malloc中的mmap和sbrk</a></li>
+<li><a href="https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/">了解 glibc malloc</a></li>
+</ul>
+</li>
+<li><a href="https://burtleburtle.net/bob/hash/integer.html">4字节hash</a></li>
+</ul>
+<h2 id="summarize-_3">书籍</h2>
+<ul>
+<li>深入理解操作系统(csapp)：入门书籍，相当于一本目录</li>
+<li>操作系统导论(ostep)：感觉很不错</li>
+<li>程序员的自我修养(链接，装载和库)：主要是讲的是ELF相关的</li>
+<li>计算机网络(自顶向下方法)</li>
+<li><a href="https://github.com/CnTransGroup/EffectiveModernCppChinese/tree/master/src">EffectivModernCpp</a></li>
+<li>现代cpu性能优化与分析</li>
+<li>Linux多线程服务端编程：使用muduo C++网络库</li>
+<li>STL源码剖析</li>
+<li>Windows核心编程</li>
+<li>软件调试 第二版</li>
+</ul>
+<h2 id="summarize-_4">视频</h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1gu41117bW">性能优化 往数组里写入0为何比写入1更快？详解缓存的工作机制</a></li>
+<li><a href="https://www.bilibili.com/video/BV19e4y1q7JJ">git成熟项目的工作流</a></li>
+<li><a href="https://www.youtube.com/watch?v=LKKmPAQFNgE">内存泄漏，以及为什么不要继承STL</a></li>
+<li><a href="https://www.bilibili.com/video/BV1uY4y1D7Ng">https的原理，CA机构</a></li>
+<li><a href="https://www.bilibili.com/video/BV1iF4m1L7MB">UB行为以及相关后果</a></li>
+</ul>
+<h2 id="summarize-_5">博主</h2>
+<ul>
+<li><a href="https://www.zhihu.com/people/giantchen">陈硕</a>: 博客好多东西，我都不懂，希望有懂得一天</li>
+<li><a href="https://github.com/zweix123/CS-notes">zwx</a></li>
+<li><a href="https://www.zhihu.com/people/skywind3000">韦易笑</a></li>
+<li><a href="https://space.bilibili.com/263032155">双笙子佯谬</a>: 讲解C++视频的，非常牛逼</li>
+</ul>
+<h2 id="summarize-_6">相关网站</h2>
+<ul>
+<li>绘图网站<ul>
+<li><a href="https://csacademy.com/app/graph_editor">Graph Editor</a></li>
+<li><a href="https://draw.io">draw.io</a></li>
+</ul>
+</li>
+<li>剪切板<ul>
+<li><a href="https://godbolt.org">godbolt</a></li>
+<li><a href="https://paste.nugine.xyz">在线剪切板</a></li>
+</ul>
+</li>
+<li>C++<ul>
+<li><a href="https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5">cppreference</a>: 手册</li>
+<li><a href="https://cppinsights.io">cppinsights</a>: 解糖用的e</li>
+<li><a href="https://stackoverflow.com/">stackoverflow</a> 非常牛逼</li>
+</ul>
+</li>
+<li><a href="https://www.zhihu.com">知乎</a></li>
+<li><a href="http://weitz.de/ieee">IEEE754计算</a></li>
+<li><a href="https://quick-bench.com/">Quick-Bench</a></li>
+</ul></section><section class="print-page" id="software_list"><h1 id="software_list-_1">软件清单</h1>
+<p>这是我积累的相关软件，Windows上和Linux上的软件我都用，所以都有</p>
+<h2 id="software_list-windows">Windows</h2>
+<p>安装scoop</p>
+<h3 id="software_list-scoop">scoop</h3>
+<pre><code class="language-powershell">Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+</code></pre>
+<pre><code class="language-bash">scoop install gcc
+scoop install clang clangd
+scoop install gdb
+scoop install git
+</code></pre>
+<ul>
+<li>QQ 微信 企业微信 腾讯会议 聊天办公软件</li>
+<li>网易云音乐</li>
+<li>Office</li>
+<li>Notepad&ndash;</li>
+<li>powershell, Windows Terminal 配置环境</li>
+<li>OpenArk 软件测试，逆向等工具集</li>
+<li>VS, Vscode</li>
+<li>Clash</li>
+<li>ugit: 这玩意还是非常好用的</li>
+<li>彗星助手</li>
+<li>Windbg: 这玩意我感觉巨难用, 但是不得不用(其实还怪好用)</li>
+<li>微软实用工具索引<ul>
+<li>Spxx: 微软调试窗口的工具, 继承在 VS 中</li>
+</ul>
+</li>
+<li>api-monitor: API 监控工具</li>
+<li>IDA: 看汇编的</li>
+</ul>
+<h2 id="software_list-linux">Linux</h2>
+<pre><code class="language-bash">sudo apt install zsh
+sh -c &quot;$(curl -fsSL https://gitee.com/Devkings/oh_my_zsh_install/raw/master/install.sh)&quot;
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo)
+</code></pre>
+<pre><code class="language-bash">sudo apt install gcc g++
+sudo apt install clang clangd
+sudo apt install neofetch
+sudo apt install perf
+sudo apt install gdb
+sudo apt install cmake
+sudo apt install valgrind
+sudo apt install btop
+sudo apt install rigrep
+</code></pre></section><section class="print-page" id="network_problem"><h1 id="network_problem-_1">网络问题</h1>
+<ol>
+<li>换一个好一点的梯子，</li>
+<li><code>utools</code>上搜重置网络进行重置</li>
+<li>
+<p>关闭网络代理，在cmd上直接<code>ipconfig /flushdns</code>刷新dns缓存，这个很奏效</p>
+</li>
+<li>
+<p>将git从22端口切换到443端口</p>
+</li>
+</ol>
+<p>在<code>~/.ssh/config</code>里面加入下面的话让443代理22端口就行了</p>
+<pre><code class="language-shell">Host github.com
+    Hostname ssh.github.com
+    Port 443
+    User git
+</code></pre>
+<p>然后进行验证</p>
+<pre><code class="language-shell">ssh -T -p 443 git@ssh.github.com # 这是先用443端口来测试是否连接的通
+ssh -T git@github.com # 修改之后，用默认端口是否可以联通过去
+</code></pre></section><section class="print-page" id="lecture"><h1 id="lecture-_1">踩过的坑</h1>
+<p>踩过的坑，记下来</p>
+<h2 id="lecture-_2">统一编码格式</h2>
+<p>有一次提交的时候，本地好好的，结果交上去，全红了，然后全变绿色的了，但是本地却没有显示出来，导致浪费很多时间，而且我看项目的代码，有gbk，utf-8,utf-8bom，gbk，utf-16各种各样的编码格式。。。所以这里就需要统一一下编码，不管是Windows还是Linux，我都建议使用UTF-8和LF这编码格式，或者说Windows上因为历史遗留问题，全部改成UTF-8Bom编码。</p>
+<h2 id="lecture-_3">减少宏定义</h2>
+<p>现在已经是C++23了，C++26也快出来了，但是依旧使用宏定义，我认为宏定义在编程的时候遇到最恶心的点就是：他仅仅是文本替换，你写代码写爽了，使用一个INT来接收一个宏定义，但是当你调试的时候，发现传入的是0，1，2这样的数字，宏定义的相关名称完全没有传入，这就导致你调试的时候很难调试，我希望能够改成<code>enum class</code>这样的类，或者使用<code>using</code>, <code>const</code>等关键字保存对应的消息。</p>
+<h2 id="lecture-_4">使用包管理器</h2>
+<p>C++没有官方的包管理支持，确实不好，而且项目中没有包管理，管理器真的不好，在Windows上可以使用vckpg这样的库，Linux上可以使用cmake这样的库,或者使用自带的，比如说pacman or apt这样的自带的包管理器，同事，如果说你使用了某一个库，我建议你先在本地直接编译一遍，否则用别人编译好的，可能会有很大的坑，这时候其实用自己编译过的，是最好的。</p></section><section class="print-page" id="assembly_language"><h1 id="assembly_language-x86">X86汇编</h1>
+<p>这两天在看《老码识途》, 感觉x86汇编比较好玩, 随写一篇文章准备记录一下</p>
+<h2 id="assembly_language-_1">寄存器</h2>
+<p>本质上就是存储数据的地方, 寄存器 - cache - 内存 - 硬盘 - 网络上的介质</p>
+<p>不过寄存器存储的确实很少, 32位或者说是64位数，这里主要先考虑32位的</p>
+<h3 id="assembly_language-_2">通用寄存器</h3>
+<p>在32位的寄存器下, 主要是由以下寄存器比较重要</p>
+<ul>
+<li>EAX: 多数情况下是传入参数, 参数的第一个或者说直接是返回值放在EAX上</li>
+<li>ECX: 传入参数</li>
+<li>EDX: 传入参数</li>
+<li>EBX: 传入参数</li>
+<li>EBP: 函数寻址的情况下, EBP是保存栈的base的</li>
+<li>ESP: 维护函数栈的情况下, ESP是栈顶</li>
+<li>ESI</li>
+<li>EDI:</li>
+<li>EIP: PC寄存器, 是保存吓一条寄存器的地址的, 非常重要</li>
+</ul>
+<p>其中, EIP这样的寄存器, 保存的是下一条指令的地址, 不过EIP寄存器是线性的, 是线性增长的</p>
+<ul>
+<li>传入参数按照规定的参数传入方式进行传入，比如说WINAPI的形式，或者说是fastcall的形式，这里比较重要的，因为传入参数的顺序决定了参数在栈里面的分布式怎么分布的，<ul>
+<li>C++规定了传入参数遵循WINAPI，fastcall这样的传入方式，但是没有规定怎么使用这个参数，</li>
+<li>使用参数的顺序式未定义的</li>
+</ul>
+</li>
+</ul>
+<p>如下图：</p>
+<pre><code class="language-text">        High
+        |   ...   |
+        +---------+
+     +24|  Arg 1  |
+        +---------+
+     +16|  Arg 2  |
+        +---------+
+     + 8| Return  |
+        +---------+
+EBP+--&gt; |Saved EBP|
+        +---------+
+     - 8|  Var 1  |
+        +---------+
+ESP+--&gt; |  Var 2  |
+        +---------+
+        |   ...   |
+            Low
+</code></pre>
+<ul>
+<li>先按照从右往左压栈传入参数，然后回爆粗你EBP这个指针，然后开始是局部变量，压栈的过程中，ESP这个指针式往下走的，所以可以大致分布是上图</li>
+<li>因为参数是固定的，那么就可以直接得到指针，然后+8+8这样的得到对应的参数，然后显示出来。</li>
+</ul>
+<h2 id="assembly_language-_3">内存地址</h2>
+<p>下面是相关例子</p>
+<pre><code class="language-shell"># ds:[xxx]是段存储，因为内存就是一段一段的，这里直接就是0x12FFC4这个地址的数据， mov 到eax这个寄存器上
+# dword是双字，就是从这个0x13FFC4这个地方，四个字节，放到eax上
+mov eax, dword ptr ds:[0x13FFC4]
+
+# 同理，eax的数值存储到ds[0X13FFC4]上
+// eax的数值往eax上写入数据，同样，dword是双字，也就是四字节
+mov dword ptr ds:[0X13FFC4], eax
+</code></pre>
+<ul>
+<li>程序中的内存地址很多都是按照基地址 + 偏移量存储的，比如说全局变量，数组，switch这样的关键字，都是base + offset这样存储的</li>
+<li>Windows上按照0x40000这样base地址，但是offset不会变，base地址可能会发生偏移，但是大差不差</li>
+</ul></section><section class="print-page" id="classicpictures"><h1 id="classicpictures-_1">经典图片</h1>
+<h2 id="classicpictures-_2">性能开销</h2>
+<p><img alt="性能开销" src="../image/performanceoverhead.jpg" /></p></section><h1 class='nav-section-title-end'>Ended: 文章</h1>
+                        <h1 class='nav-section-title' id='section-其他'>
+                            其他 <a class='headerlink' href='#section-其他' title='Permanent link'>↵</a>
+                        </h1>
+                        <section class="print-page" id="interview"><h1 id="interview-_1">面试相关</h1>
+<ul>
+<li>记录一下秋招到现在的面试经历，自己再复盘一下</li>
+<li>真的感谢我的第一位导师，如果没有那一段实习和那本Windows核心编程，我感觉我没有这么多面试机会，真的感谢</li>
+<li>本来想先隐藏的，觉得还是不隐藏了，如果你看到了，说明你我有缘</li>
+</ul>
+<h2 id="interview-_2">面试总结</h2>
+<ul>
+<li>计算机面试，菜是原罪，提高自己的技术吧。</li>
+<li>计算机面试的面试官面试的时候其实找以后一起工作的同事，可能不仅要求技术是比较好的，并且语言表达上要表达清楚，因为以后工作要相互沟通，所以表达能力也要好</li>
+<li>没到发offer之前，一切都是变数，不看好的可能真的有机会过，但是好的也有可能直接寄。沉住气</li>
+</ul>
+<h2 id="interview-_3">面试经历</h2>
+<h2 id="interview-_4">小黑盒</h2>
+<p>好像是干flutter的，面完二面之后，就没消息了。。。</p>
+<ul>
+<li>2023.8.12 19:00 - 20:00 一面<ul>
+<li>写了三道题，都A出来了，然后问了一个计算机网络八股，网址输入到浏览器中都有什么过程</li>
+</ul>
+</li>
+<li>8.15 19:00 - 20:00 二面<ul>
+<li>感觉PC客户端和移动客户端有不同，导致面试官只提问了通用性八股<ul>
+<li>QT渲染机制，完全不懂，</li>
+<li>编译/链接的过程，为什么C/C++将.h和.cpp分开？ -&gt; (历史遗留问题)</li>
+<li>全是计算机网络的问题，好多记不清楚了，还得复习</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_5">美团</h2>
+<p>投递的是移动端，但是美团的安全软件捞我的，二面之后第二个就挂了，答的确实不好</p>
+<ul>
+<li>2024.8.20 14:00 - 15:00 一面<ul>
+<li>内联函数，inline函数</li>
+<li>宏定义相关<ul>
+<li>个人非常讨厌宏定义，Windows上的有很多宏定义相关的，比如说消息机制，宏定义又有一个非常大的缺点就是他仅仅在预处理的时候进行文本替换，导致根本无法调试，调试的时候直接变成对应的字符串和数字了，非常恶心</li>
+</ul>
+</li>
+<li>如何在不侵入程序的情况下进行代码调试<ul>
+<li>事后想了想，好像是静态调试和动态调试的区别？</li>
+<li><a href="https://bbs.kanxue.com/thread-149979.html">静态调试和动态调试的区别？</a></li>
+</ul>
+</li>
+<li>inline关键字的用处？<ul>
+<li>允许在多个编译单元中重复定义，多用于header-only的头文件</li>
+<li>并且可以在类里面修饰static关键字修饰的变量，可以直接赋值</li>
+</ul>
+</li>
+<li>依旧有如何保证C/C++内存泄露的相关问题，如果这个exe程序在用户的手中，如何检测这个内存泄漏的情况？<ul>
+<li>这个确实不懂，问群友，好像是可以直接有监控程序什么的</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2024.8.27 19:00 - 20:00 二面<ul>
+<li>有一些Bug,这些Bug没有具体的表现出来，比如说没有Crash的Dump文件，但是就有小毛病，比如说内存增长了，但是不至于崩溃，或者说没有统一解决方案的Bug，你会怎么做？ 【就像黑神话悟空的空气墙一样，怎么解决？】<ul>
+<li>确实不会，我觉得可以看ETL那样的文件，或者看相关日志等情况，面试官感觉不是很满意</li>
+</ul>
+</li>
+<li>malloc这些内存分配，如何检测内存释放的问题？<ul>
+<li>答得时候感觉感觉答的不是很好，之后总结到：</li>
+<li>对于像new这样的关键字，可以重载placment new,然后当分配内存的时候，可以记录一个链表，在链表中标记一下，当析构之后的时候，从链表中取出来，然后程序运行之后，再检查一下链表，看有没有拿一些块没有清理干净，就能看报错了<ul>
+<li>从知乎上学来的，链接：<a href="#interview-zhihu.com-question-29859828-answer-1798470821">检测内存泄露</a>，我在面试之前就看了这个，结果没有说，呜呜呜</li>
+<li>对于malloc这样的函数，可以直接使用Hook函数，将其Hook，在函数代码执行之前，跟上面一样，记录一下，估计就行了</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>QT connect函数又几个参数 -&gt; 其实有第五个参数的，</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_6">网易互娱</h2>
+<p>好像是实习转正，Windows SDK开发方向的，一面两个面试官，二面三个面试官，汗流浃背了。。</p>
+<ul>
+<li>2024.8.29 15:00 - 16:00 一面<ul>
+<li>new和malloc这样的函数，如果内存申请失败了，返回什么<ul>
+<li>C++中才有异常，所以new是std::bad_alloc, malloc是 NULL</li>
+</ul>
+</li>
+<li>虚函数的相关知识，虚表的实现等<ul>
+<li>虚表指针有偏移的问题，因为跨DLL的时候可能不知道你这个表的结构发生改变，那么就有可能出现虚表指针偏移的问题<ul>
+<li>我提出将其全部重新编译一遍，或者说将其虚函数加入到虚表之后 </li>
+<li>更好的解决方法是加入到函数末尾，因为更新的时候，可能只会更新一个DLL，其他DLL不知道这个结构发生改变</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>内存泄露有什么好的解决方法，在Windows上内存泄露怎么解决？</li>
+<li>WinDbg等调试信息，如果没有调试模块的相关信息，怎么进行调试？完全不会</li>
+<li>VS编译的时候，MT和MD的区别？（面试官说你VS用的熟不熟，嘴瓢说个我都会。。。所以提了这个问题，幸好答出来了）<ul>
+<li>可能又内存释放的问题，内存释放点的问题导致的Crash问题<ul>
+<li>Windows和Linux上都有这个问题，std::shared_ptr可以解决这个问题，但是非POD类型，就还是解决不了</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>如何生成Dump文件？又提出多个模块覆盖了Dump文件生成的handler的时候，如何避免这个问题<ul>
+<li>我之前写的一篇博客：<a href="https://zhuanlan.zhihu.com/p/702081228">Dump文件的生成</a></li>
+<li>后面的问题不懂</li>
+</ul>
+</li>
+<li>UI界面为什么要在一个线程上画（一般是主线程上画）？ -&gt; 好像是保持同步，大致是这样</li>
+<li>线程同步怎么做？<ul>
+<li>相关锁，原子变量等</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2024.8.23 17:00 - 18:00 二面<ul>
+<li>登陆器的相关东西，你如何保证数据的安全，然后怎么保证成功登录<ul>
+<li>可以采用https这个协议，（提示之后才知道，确实，这就是https的用处）</li>
+</ul>
+</li>
+<li>内存屏障你了解么。寄，感觉完全没用，只了解一点，但是面试的时候直接说，不会，掌握确实不好</li>
+</ul>
+</li>
+<li>DLL加载失败有哪些?<ul>
+<li>目录，环境变量搜索不到的情况下，可能会加载失败</li>
+<li>32位和64位进程的DLL不能公用（面试完我就想到了。。哎）</li>
+<li>Rpc传输的时候，为什么需要序列化和反序列化一下，不能直接read和write那样传输一个字节流么。<ul>
+<li>因为传输可能这个结构不一样，导致错误，比如说平台架构的问题，最显眼的比如说long在Windows上是四个字节，在Linux上是8个字节。导致这个数据不统一。还有其他的ABI不统一导致的，或者说比如说内存对齐也有可能不统一导致的等等等，反正是必须序列化。</li>
+</ul>
+</li>
+<li>你觉得你如何设计一个线程池？考虑的点有哪一些？<ul>
+<li>接口，线程的数量等</li>
+</ul>
+</li>
+<li>DLL注入有哪几种方法</li>
+</ul>
+</li>
+<li>2024.8.27 Hr面</li>
+</ul>
+<h2 id="interview-_7">腾讯音乐</h2>
+<ul>
+<li>2024.8.21 19:00 - 20:00 一面<ul>
+<li>实习相关</li>
+<li>CE这样的软件如何锁定一个数值的?<ul>
+<li>扫描内存，然后看拿一些数值有变化，但是直接锁定一个数值不变，不会</li>
+</ul>
+</li>
+<li>编译相关，函数压栈的过程有哪一些？C/C++的内存区域都有拿一些，特定是什么？</li>
+<li>如何不使用锁的情况下保证这个数据安全？互斥锁和自旋锁的区别？什么时候用自旋锁好一些呢？<ul>
+<li>一般操作系统使用互斥锁的时候，都会自旋一下，先看能不能拿到锁，如果拿不到，那么就再进入内核态</li>
+<li>擦，我忘了无锁实现数据安全了，面完就想到了，（</li>
+</ul>
+</li>
+<li>两道LeetCode算法题</li>
+</ul>
+</li>
+<li>2024.8.27 二面<ul>
+<li>计算机网络相关</li>
+<li>中序遍历如何使用BFS的形式遍历出来，不会。。。</li>
+</ul>
+</li>
+<li>二面居然过了，hr面。。不过得等到9月底才出结果，但是感觉有点悬</li>
+</ul>
+<h2 id="interview-_8">快手</h2>
+<ul>
+<li>2024.8.22 19:00 - 29:00 一面<ul>
+<li>线程安全的问题，如何保证线程安全，如何避免死锁</li>
+<li>设计模式，考察软件工程设计的要领</li>
+<li>TCP和UDP，视频传输的时候一般用的是什么协议<ul>
+<li>其实现在两者都比较模糊了，好多都是基于UDP，然后魔改的，比如说KCP</li>
+</ul>
+</li>
+<li>一道算法题</li>
+</ul>
+</li>
+<li>2024.8.29 13:00 - 14:00 二面 寄了<ul>
+<li>线程轮流打印A,B,C 然后打印10次，哎，完全不会，线程的API我都忘了，其实就是一个cv搞一下，然后我不会，</li>
+<li>基础知识，面试官说我基础知识掌握挺好</li>
+<li>估计嫌我没iOS方向的知识，于是寄了。呜呜呜</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_9">海康</h2>
+<p>好怪，整个就只有一面。。hr面之后拒了</p>
+<ul>
+<li>2024.9.4 海康 C/C++ 一面<ul>
+<li>实习相关</li>
+</ul>
+</li>
+<li>2024.9.5 hr面</li>
+</ul>
+<h2 id="interview-_10">腾讯</h2>
+<p>TX，你居然约我了，呜呜呜，</p>
+<ul>
+<li>2024.9.10 20:00 - 21:00 一面 实际面了有一个半小时<ul>
+<li>C/C++基础知识，虚函数表相关的，虚函数指针偏移的问题（如何解决），sizeof相关，strcpy后面的\0问题等等等</li>
+<li>Windows上DLL相关的形式，DLL使用的使用的时候应该注意到什么，内存申请和释放相关的</li>
+<li>Dbg的相关原理，怎么实现的，WinDbg上调试的相关命令，然后相关命令，bp,bu,kP，.excr. 等等命令</li>
+<li>STDCALL是什么，有什么区别，然后要注意什么</li>
+<li>Windows上相关注入有什么？DLL线程注入，钩子函数，输入法注入相关的</li>
+<li>工作相关的，如何用什么解决的，怎么解决，如何解决？</li>
+<li>算法题，不会写，思密达。就记这些了。。。</li>
+</ul>
+</li>
+<li>2024.9.19 20:00 - 21:00 二面 实际约面了两个半小时，而且和一面一个面试官。。<ul>
+<li>重名DLL如何进行加载？重名DLL加载失败的情况是什么？</li>
+<li>DLL加载失败的原因有哪一些？</li>
+<li>三维空间上很多点，你怎么判断点在线上，如何进行优化</li>
+<li>考了了一段汇编题，这段汇编是干啥的，其中的几个指令是什么用途。。CALL和RET这些，麻了</li>
+<li>API Hook(api-monitor的相关知识)的相关知识。DLL加载的相关知识，隐式加载和显示加载的相关知识，在操作系统中都做了什么</li>
+<li>5升和6升的水如何倒出三升水</li>
+<li>两道编程题，一个树，一个解析模拟题</li>
+<li>还有其他的，不是很清楚了</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_11">上海瓶钵</h2>
+<p>这就是Linux开发么，哎，好难 -&gt; 没消息， 挂了，不过学到了很多</p>
+<ul>
+<li>2024.8.23 一面<ul>
+<li>GDB调试中watch的原理</li>
+<li>GDB 调试的时候，如何打断点，代码中如何多次命中？【就是比如说一个断点放在for循环里面，如何每次循环的时候都会直接命中】<ul>
+<li>设置断点之后，使用ptrace可以执行单步指令（ptrace single step），然后执行之后，再将0xcc放到原来的位置上。</li>
+</ul>
+</li>
+<li>如果说多线程修改一个单一字节的数值（好像就是在汇编层面修改单一），是否是线程安全的？<ul>
+<li>我只回答了可能数据需要读出来，然后修改，然后放回去，然后还有一系列CPU的优化。重新排序等等优化，然后可能就不是线程安全的了。</li>
+</ul>
+</li>
+<li>页表中如何实现内存的读，写等 （大致是那个标志位的东西）</li>
+<li>虚拟机/虚拟化的实现原理，-&gt; 不会，但是感觉跟操作系统和应用程序一样，提供了一个虚拟化的东西</li>
+<li>如何进行系统调用的？<ul>
+<li>syscall指令，先将系统调用的编号（也就是一个数字）放到%eax这个寄存器上，然后syscall执行这个编号所对应的系统调用指令，然后结果好像也是放在%eax上。其他参数可能放再ecx中等其他寄存器</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-minimax">MiniMax</h2>
+<p>一面之后就没消息了。呜呜</p>
+<ul>
+<li>2024.8.26 一面 小姐姐很好看（<ul>
+<li>进程/线程的区别，</li>
+<li>为什么使用单例模式?</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_12">某宇宙厂</h2>
+<ul>
+<li>2024.8.14 19:00 - 20:00 一面<ul>
+<li>聊的很多，八股一大堆，COM编程，static 关键字等</li>
+<li>有一定印象的的是异常处理调用链，然后我现在也不知道是什么，可能是抛异常的时候要走什么,IDT相关？</li>
+</ul>
+</li>
+<li>2024.8.19 19:00 - 20:00 二面<ul>
+<li>先问我实习中都干了什么，面试官直接怼脸：你做的有什么难的？很简单啊，我不好评价，宇宙厂面试官谜之自信</li>
+<li>这场问了我很多项目中的事情，很多地方没有打出来</li>
+<li>PostMessage和SendMessage的区别？<ul>
+<li>我提了一嘴可能会有声明周期带来的引发问题，因为SendMessage是堵塞的，那么如果说你传入一个对象，那么这个对象估计不会随着右花括号析构，但是PostMessage不会堵塞，那么这个对象就有可能出现析构的现象，导致Crash等问题，但是面试官好像并没有领会到。。。哎</li>
+</ul>
+</li>
+<li>Windows上的：进程/线程/窗口/消息机制/时间循环的关系</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_13">滴滴</h2>
+<p>一天就面了三面，效率确实高，但是不知道过没过</p>
+<ul>
+<li>2024.9.24 14:00 开始<ul>
+<li>计算机网络相关，rpc为什么不能直接传输，而应该进行序列化</li>
+<li>Windows上的GetMessage不是堵塞的么，为什么最后有一个事件循环，但是这里并不会发生卡顿？就是如果没有消息了，为什么还是好的？<ul>
+<li>这个确实把我难到了</li>
+</ul>
+</li>
+<li>学习相关的，如何进行学习？如何学习新知识</li>
+<li>其他不记得了</li>
+</ul>
+</li>
+</ul>
+<h2 id="interview-_14">微派</h2>
+<ul>
+<li>为什么在网址上输入http的时候，有的会弹出不安全的证书，但是有的却直接给你调到https上了？<ul>
+<li>可能是因为http的那边有跳转？</li>
+</ul>
+</li>
+</ul></section><section class="print-page" id="client_bible"><h1 id="client_bible-_1">客户端圣经</h1>
+<p>本人是客户端从业者，以下是我在网络上搜集到的相关&rdquo;圣经&rdquo;，仅仅是自嘲罢了，切勿当真</p>
+<ul>
+<li>傻逼后端，写一堆黑框框啥也不知道，客户端所见即所得，很有成就感。</li>
+<li>后端天天面对他那破服务器瞎搞，而我们客户端，是离用户最近的岗位。</li>
+<li>我认为客户端才是真正在开发产品，后端就只是个管数据的。</li>
+<li>有后选后, 无后选前, 无后无前, 算法也甜，条件允许, 无脑后端, 前途无量, 预定高管, 其次前端, 需求频繁, 温饱有余, 人上人难, 算法数据, 收入可观, 最好硕博, 高端饭碗, 测试开发, 也可一战, 随手一点, 月入过万, 走投无路, 回家种田, 日出日落, 生活美满, 鬼迷心窍, 来客户端, 表面繁荣, 实则内卷, 工作清闲, 面试火箭, 不到三年, 全部玩完, 65在后, 绿帽在前，苦口婆心，金玉良言，奉劝诸位，擦亮双眼，有则改之，无则加勉。</li>
+<li>有客选客，无客选前，无客无前，算法也甜，条件允许，冲客户端，SP白拿，面试简单，其次前端，需求频繁，温饱有余，人上人难，算法数据，收入可观，最好硕博，高端饭碗，测试开发，也可一战，随手一点，月入过万，走投无路，回家种田，日出日落，生活美满，鬼迷心窍，来卷后端，表面高端，实则内卷，笔试地狱，面试火箭，一番激战，终于上船，进来之后，立马傻眼，增删改查，谁都能干，核心坑位，早被占满，幻想破灭，梦中高管，卷王在后，工贼在前，周内通宵，周末加班，不到一年，全部卷残，身体残废，后悔莫及，苦口婆心，金玉良言，奉劝诸位，擦亮双眼，有则改之，无则加勉。</li>
+<li>你的客户端, 我的客户端, 好像不一样, PC客户端人下人, 游戏客户端人上人。</li>
+<li>如果你是个客户端，我不会说什么, 我也不会讨厌你, 更多的是同情, 因为我也是客户端。但如果你是写 flutter 的客户端, 我会唾弃你, 厌恶你，因为你的手上沾满了客户端同胞的血，你同时干三个端就说明有另两个客户端因你而失业流落街头。</li>
+</ul></section><section class="print-page" id="web_build"><h1 id="web_build-_1">网站构建</h1>
+<p>本网站使用mkdocs进行构建，网上有很多资料可以借鉴，这里记录一下自动推送如何实现</p>
+<p>所有的资源文件都在<a href="https://github.com/Meteor-Z/Meteor-Z.github.io">此github链接</a>仓库的main分支上，然后bot将生成的文件推送到<code>gh-pages</code>这个分支上，然后github page选择<code>gh-pages</code>这个分支进行网页展示。</p>
+<h2 id="web_build-_2">如何推送</h2>
+<p>github支持自动流水线，也就是action，可以查看<a href="https://github.com/Meteor-Z/Meteor-Z.github.io/blob/main/.github/workflows/gh-deploy.yml">此链接</a>中的<code>gh-deploy.yml</code>进行书写，然后进行推送，同时，也应该将github page的配置选择<code>gh-pages</code>这个分支，否则上传不上去，</p>
+<h2 id="web_build-_3">域名</h2>
+<p>网上也有，在docs/下创建CMAKE，然后在域名网站上配置指向的ip地址即可</p></section><h1 class='nav-section-title-end'>Ended: 其他</h1></div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Metoer-Z</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "/",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../js/print-site.js"></script>
+        <script src="../extra.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
