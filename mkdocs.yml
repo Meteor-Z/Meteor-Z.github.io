@@ -6,16 +6,19 @@ repo_url: https://github.com/Meteor-Z/Meteor-Z.github.io
 site_url: http://liuzechen.top
 nav:
   - 文章:
-    - summarize.md
+    - 总结: summarize.md
     - software_list.md
     - network_problem.md
     - lecture.md
     - assembly_language.md
     - classicpictures.md
+    - 计算机网络: network.md 
   - 其他:
     - interview.md 
     - client_bible.md
     - web_build.md
+  - 工具:
+    - git: git.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
 plugins:
@@ -23,34 +26,16 @@ plugins:
   - macros
   - print-site
 theme: 
-  name: mkdocs
+  name: material
+  language: zh
   palette:
-    primary: blue grey
+    primary: default
   font:
     code: Noto Sans Simplified Chinese
   features:
     - search.suggest
     - search.highlight
-  highlightjs: true
-  hljs_languages: # rg '^```\w+' | sed 's/.*:```\(\w*\)/    - \1/g' | sort | uniq
-    - bash
-    - c
-    - cmake
-    - cpp
-    - diff
-    - java
-    - json
-    - llvm
-    - nasm
-    - python
-    - rust
-    - txt
-    - powershell
-extra_javascript:
-  - extra.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-extra_css: 
-  - extra.css
+    # - navigation.tabs
 markdown_extensions:
   - sane_lists
   - extra
