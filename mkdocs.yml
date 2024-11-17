@@ -4,7 +4,7 @@ site_author: 刘泽辰
 copyright: Metoer-Z
 repo_url: https://github.com/Meteor-Z/Meteor-Z.github.io
 site_url: http://liuzechen.top
-nav:
+nav: 
   - 文章:
     - software_list.md
     - network_problem.md
@@ -27,24 +27,37 @@ nav:
   - 知乎: https://www.zhihu.com/people/newlzc 
 plugins:
   - search
-  - macros
-  - print-site
 theme: 
   name: material
   language: zh
-  palette:
-    primary: default
-  font:
-    code: Noto Sans Simplified Chinese
   features:
-    - search.suggest
-    - search.highlight
-    # - navigation.tabs
+    - content.code.copy # 代码复制
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+        
 markdown_extensions:
-  - sane_lists
-  - tables
-  - toc
-  - fenced_code
-  - smarty
-  - pymdownx.arithmatex
-  - mdx_truly_sane_lists # 支持嵌套列表的
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets:
+  - pymdownx.superfences:

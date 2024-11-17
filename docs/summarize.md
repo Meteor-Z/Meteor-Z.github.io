@@ -1,6 +1,6 @@
 # 学习资料总结
 
-一下资料对我都有帮助，希望对您也有所帮助
+以下资料对我都有帮助，希望对您也有所帮助
 
 ## 书籍
 
@@ -30,7 +30,7 @@
 - [韦易笑](https://www.zhihu.com/people/skywind3000)
 - [双笙子佯谬](https://space.bilibili.com/263032155): 讲解C++视频的，非常牛逼
 
-## 相关网站
+## 网站
 
 - 绘图网站
   - [Graph Editor](https://csacademy.com/app/graph_editor)
