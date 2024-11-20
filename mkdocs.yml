@@ -3,8 +3,10 @@ site_description: 个人博客
 site_author: 刘泽辰
 copyright: Metoer-Z
 repo_url: https://github.com/Meteor-Z/Meteor-Z.github.io
+edit_uri: tree/main/docs/
 site_url: http://liuzechen.top
-nav: 
+copyright: Copyright &copy; 2024 ~ now | 🚀 ZeChen Liu (Meteor-Z)
+nav:
   - 文章:
     - software_list.md
     - network_problem.md
@@ -12,26 +14,53 @@ nav:
     - assembly_language.md
     - classicpictures.md
     - 计算机网络: network.md 
-  - 其他:
-    - interview.md 
-    - client_bible.md
-    - web_build.md
-    - 实习有感: practice_feel.md
   - 八股:
     - mysql: 408\mysql.md
     - redis: 408\redis.md
   - 工具:
     - git: git.md
   - 资料: summarize.md
+  - 其他:
+    - interview.md 
+    - client_bible.md
+    - web_build.md
+    - 实习有感: practice_feel.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' # 分隔符
 theme: 
   name: material
   language: zh
   features:
     - content.code.copy # 代码复制
+    - announce.dismiss # 可以叉掉公告的功能
+    - content.action.edit # 编辑按钮，似乎没啥用
+    - content.action.view # 查看按钮，似乎没啥用
+    - content.code.annotate # 代码注释，具体不清楚
+    - content.code.copy # 复制代码按钮
+    # - content.code.select # 选择代码按钮
+    # - content.tabs.link # 链接标签
+    - content.tooltips # 不太清楚呢这个
+    # - header.autohide # 自动隐藏header
+    # - navigation.expand # 默认展开导航栏
+    - navigation.footer # 底部导航栏
+    - navigation.indexes # 索引按钮可以直接触发文件，而不是只能点击其下属选项浏览，这个功能可以给对应的section提供很好的预览和导航功能
+    # - navigation.instant # 瞬间加载 - 如果这个开着，那么语言切换后就会跳转至首页，所以我关掉了
+    - navigation.instant.prefetch # 预加载
+    - navigation.instant.progress # 进度条
+    - navigation.path # 导航路径， 目前好像没啥用
+    # - navigation.prune # 只构建可见的页面
+    # - navigation.sections # 导航栏的section
+    # - navigation.tabs # 顶级索引被作为tab
+    - navigation.tabs.sticky # tab始终可见
+    - navigation.top # 开启顶部导航栏
+    - navigation.tracking # 导航栏跟踪
+    - search.highlight # 搜索高亮
+    - search.share # 搜索分享
+    - search.suggest # 搜索建议
+    - toc.follow # 目录跟踪-页面右侧的小目录
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -52,8 +81,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-        
+
+
 markdown_extensions:
+  - pymdownx.arithmatex: # latex
+      generic: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -61,8 +93,7 @@ markdown_extensions:
   - pymdownx.inlinehilite:
   - pymdownx.snippets:
   - pymdownx.superfences:
-  - pymdownx.arithmatex:
-    - generic: true
+  - mdx_truly_sane_lists: # 嵌套列表
   
 extra_javascript:
   - javascripts/katex.js # latex
