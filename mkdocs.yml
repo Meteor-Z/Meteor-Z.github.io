@@ -18,8 +18,8 @@ nav:
     - web_build.md
     - 实习有感: practice_feel.md
   - 八股:
-    - mysql: mysql.md
-    - redis: redis.md
+    - mysql: 408\mysql.md
+    - redis: 408\redis.md
   - 工具:
     - git: git.md
   - 资料: summarize.md
@@ -61,3 +61,13 @@ markdown_extensions:
   - pymdownx.inlinehilite:
   - pymdownx.snippets:
   - pymdownx.superfences:
+  - pymdownx.arithmatex:
+    - generic: true
+  
+extra_javascript:
+  - javascripts/katex.js # latex
+  - https://unpkg.com/katex@0/dist/katex.min.js # latex
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js # latex
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css # latex
