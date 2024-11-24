@@ -14,12 +14,13 @@ nav:
     - assembly_language.md
     - classicpictures.md
     - 计算机网络: network.md 
-  - 八股:
-    - mysql: 408\mysql.md
-    - redis: 408\redis.md
+  - 计算机基础:
+    - mysql: basic\mysql.md
+    - redis: basic\redis.md
   - 工具:
     - git: tool\git.md
     - clang-format: tool\clang_format.md
+    - valgrind: tool\valgrind.md
   - 资料: summarize.md
   - 其他:
     - interview.md 
