@@ -39,8 +39,6 @@ nav:
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' # 分隔符
-  - git-revision-date-localized:
-      enable_creation_date: true
 theme: 
   name: material
   language: zh
