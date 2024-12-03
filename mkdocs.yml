@@ -9,19 +9,22 @@ copyright: Copyright &copy; 2024 ~ now | 🚀 ZeChen Liu (Meteor-Z)
 nav:
   - 文章:
     - software_list.md
-    - network_problem.md
     - lecture.md
     - assembly_language.md
     - classicpictures.md
-    - 计算机网络: network.md 
+    - 宏魔法: macro.md
   - 计算机基础:
+    - 计算机网络: basic/network.md
     - mysql: basic/mysql.md
     - redis: basic/redis.md
+    - go: basic/go.md
   - 工具:
     - git: tool/git.md
     - clang-format: tool/clang_format.md
     - valgrind: tool/valgrind.md
-  - 资料: summarize.md
+    - windows: tool/windows.md
+    - linux: tool/linux.md
+    - 网络问题: tool/network_problem.md
   - 其他:
     - interview.md 
     - client_bible.md
@@ -29,12 +32,15 @@ nav:
     - 实习有感: practice_feel.md
   - 项目:
     - SimpleRedis: simple_redis.md
+  - 资料: summarize.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
   - BiliBili: https://space.bilibili.com/169994035
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' # 分隔符
+  - git-revision-date-localized:
+      enable_creation_date: true
 theme: 
   name: material
   language: zh
@@ -45,8 +51,8 @@ theme:
     - content.action.view # 查看按钮，似乎没啥用
     - content.code.annotate # 代码注释，具体不清楚
     - content.code.copy # 复制代码按钮
-    # - content.code.select # 选择代码按钮
-    # - content.tabs.link # 链接标签
+    - content.code.select # 选择代码按钮
+    - content.tabs.link # 链接标签
     - content.tooltips # 不太清楚呢这个
     # - header.autohide # 自动隐藏header
     # - navigation.expand # 默认展开导航栏
