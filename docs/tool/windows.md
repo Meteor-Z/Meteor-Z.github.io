@@ -29,3 +29,11 @@ scoop install llvm
 - 微软实用工具索引
 - api-monitor
 - IDA
+
+## 神秘代码
+
+```shell
+slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr -skms kms.0t.net.cn
+slmgr -ato
+```

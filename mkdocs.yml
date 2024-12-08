@@ -32,6 +32,8 @@ nav:
     - 实习有感: practice_feel.md
   - 项目:
     - SimpleRedis: simple_redis.md
+  - 生活:
+    - 理财: life/money.md
   - 资料: summarize.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
