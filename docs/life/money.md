@@ -14,4 +14,5 @@ data: 2024/12/8
 
 ## 资料
 
-[QQQ投资](https://jomonylw.github.io/)
+- [QQQ投资](https://jomonylw.github.io/)
+- [程序员理财课](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E8%B4%A2%E5%AF%8C%E8%AF%BE)
