@@ -35,6 +35,8 @@ nav:
   - 资料: summarize.md
   - 生活:
     - 理财: life/money.md
+    - 告别: life/goodbye.md
+  - 资料: summarize.md
   - GitHub: https://github.com/Meteor-Z
   - 知乎: https://www.zhihu.com/people/newlzc 
   - BiliBili: https://space.bilibili.com/169994035
@@ -104,7 +106,7 @@ markdown_extensions:
   - pymdownx.inlinehilite:
   - pymdownx.snippets:
   - pymdownx.superfences:
-  - mdx_truly_sane_lists: # 嵌套列表
+ # - mdx_truly_sane_lists: # 嵌套.列
   
 extra_javascript:
   - javascripts/katex.js # latex
