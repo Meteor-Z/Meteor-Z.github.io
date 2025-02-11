@@ -15,7 +15,7 @@
 - storyboard ?
 - WebView:
   - UIWebView: 不是很好，容易crash
-  - WkWebView：独立进程/内存，crash不影响主进程e
+  - WkWebView：独立进程/内存，crash不影响主进程
 
 ## 设计模式
 
@@ -28,3 +28,7 @@
 - UITableViewCell会有一个复用池，根据resuledifder作为标识
 - 不显示在页面上的会放到池子里面，如果显示在页面上面就会从池子里面取出来
 - UICollectionView更加强大，
+
+## 文件存储
+
+沙盒文件，这里直接进行隔离了，感觉比Android的隔离程度要高

@@ -29,6 +29,9 @@ nav:
     - iOS基础: ios/ios_basic.md
     - 内存管理: ios/memory_management.md
     - Block: ios/block.md
+    - 学习资料: ios/ios_study.md
+    - iOS面试题:
+      - Block: ios/408/408_block.md
   - 生活:
     - 理财: life/money.md
     - 告别: life/goodbye.md
