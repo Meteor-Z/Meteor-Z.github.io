@@ -31,7 +31,11 @@ nav:
     - Block: ios/block.md
     - 学习资料: ios/ios_study.md
     - iOS面试题:
-      - Block: ios/408/408_block.md
+      - block: ios/408/block.md
+      - runtime: ios/408/runtime.md
+      - ui: ios/408/ui.md
+      - 场景题: ios/408/scene.md
+      - 其他: ios/408/other.md
   - 生活:
     - 理财: life/money.md
     - 告别: life/goodbye.md

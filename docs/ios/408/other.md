@@ -1,0 +1,23 @@
+# 未整理
+
+ARC内存管理
+讲讲autoreleasepool
+讲讲coreAnimation
+讲讲SDWebImage第三方库原理
+什么情况是内存满了的情况
+tableView重用机制是怎么实现的，如果用scrollerView应该怎么去实现
+gif是什么样的结构，如果要播一个gif应该怎么做？
+如果要优化gif播放应该要怎么做？
+压缩应该怎么做？
+应该是服务端做还是客户端做gif优化？
+降采样听过吗？
+讲讲strong,weak,copy和assign修饰符
+weak是怎么实现的
+oc的消息转发机制
+C++空指针调函数会crash, OC调用方法却不会crash ,这是为什么
+GCD是怎么做到回到主线程的？
+GCD串行队列执行的函数永远在一个线程吗？
+NSMutableArray要保证线程安全应该怎么做，设置atomic属性可以吗
+多线程：
+多线程生产者消费者模型怎么设计
+生产者消费者模型能在同一个线程里执行吗
