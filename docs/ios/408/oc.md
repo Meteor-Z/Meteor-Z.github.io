@@ -62,8 +62,49 @@
 
 ## 关于autoreleasepool
 
-待补充
+- 变量如果说超出变量的作用域（生命周期停止）的时候就会release，但是如果放到autoreleasepool里面，那么这个对象就不会立即释放，会等到runloop休眠/超出@autoreleasepool作用域的时候才会被释放
+- NSRunLoop对autorelasepool进行持有，然后控制对象的生命周期，在RunLoop循环一开始的是偶就会创建一个autoreleasepool，然后等到循环结束的时候，自动销毁释放池中的所有autorelease对象，
+- 只要不废弃NSAutoleasePool对象（循环没有结束），那么生成的对象就不能被废除，那么可能就需要自己手动创建对应的autoreleasepool，减少内存峰值
+
+### autoreleasepool实现原理
+
+- 参考链接： [自动释放池的前世今生 ---- 深入解析 autoreleasepool](https://draveness.me/autoreleasepool/)
+
+```c++
+class AutoreleasePoolPage {
+    magic_t const magic; // 完整性校验
+    id *next; 
+    pthread_t const thread; // 当前页所在的线程
+    AutoreleasePoolPage * const parent; // 双向链表指向的上一个节点，起这个名字。。
+    AutoreleasePoolPage *child; // 双向链表的下一个节点
+    uint32_t const depth;
+    uint32_t hiwat;
+};
+```
+
+- 每一个AutoreleasePoolPage都是4096字节，其中一部分字节是他本身这个struct占用的字节，其他的都是他存储的对象 -> 用了一个id* 存储
+- id*和本身的struct之间有一个nil的POOL_SENTINEL对象，当发送对应的消息的时候，就会一直popo，直到POOL_SENTINEL这个nil对象
+
+### 小结
+
+- 自动释放池由AutoreleasePoolPage 双向链表实现
+- 对象调用autorelease的时候，会讲对象加入到AutoReleasePoolPage的栈中（上述的4096中不包括本体的部分）
+- 调用AutoreleasePoolPage:pop会向栈中的对象发送release消息
 
 ## coreAnimation是什么
 
 待补充
+
+## C++空指针调函数会crash, OC调用方法却不会crash ,这是为什么
+
+- 因为oc调用的时候本质是objc_msgSend()这个函数发送消息的，这个函数内部会判断self是否为nil，然后才会发送对应的消息
+
+## main函数的含义
+
+```oc
+return UIApplicationMain(argc, argv, nil, NSStringFromClass([appDelegate class]));
+```
+
+- UIApplicationMain()函数，这个方法会为main thread设置一个NSRunLoop对象，应用可以在无人操作的时候休息，需要让它干活的时候又能立马响应。
+  - 保证当前线程不会退出
+  - 负责监听时间（触摸事件，网络事件等）
