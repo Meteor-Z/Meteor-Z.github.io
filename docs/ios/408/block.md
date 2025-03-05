@@ -83,3 +83,16 @@ int main() {
 ## Block区分的类型是什么
 
 —— 涉及到对应的
+
+## Block中什么时候才会循环引用
+
+- 像AFNetWoring，Marsony这样的Block是不需要循环引用的
+  - AFNetWorking是特殊处理的，所以不需要Block
+  - Marsony看源码发现其实就是栈Block，没有被self持有
+- 一般来说，self需要持有一个Block,然后Block中使用了self中的一个对象，然后才会造成循环引用，如果说一个Block不是self的一个属性，仅仅是使用了self中的相关属性，就不会造成循环引用
+- 比较简单的例子就是A->B B->A这样的循环引用，如果是复杂的，那么就是A->B B->C C->A 这样的循环引用，所以要多加注意，不过我觉得所有的东西都要处理一下比较好
+  - 注意一下：Block中使用self中的weak属性，是不会造成循环引用，因为就跟__weak self一样，是weak，但是我觉得每一次写__weak就比较好
+
+## 如何读代码，如何快速进行定位。然后快速找到对应的代码
+
+- 

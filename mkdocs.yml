@@ -30,6 +30,7 @@ nav:
     - 内存管理: ios/memory_management.md
     - Block: ios/block.md
     - 学习资料: ios/ios_study.md
+    - Xcode: ios/xcode.md
     - iOS面试题:
       - block: ios/408/block.md
       - runtime: ios/408/runtime.md
@@ -39,6 +40,7 @@ nav:
   - 生活:
     - 理财: life/money.md
     - 告别: life/goodbye.md
+    - 开卡: life/account.md
   - 资料: summarize.md
   - 文章:
     - 找实习前要准备什么: pre_intern.md

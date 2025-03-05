@@ -38,3 +38,6 @@ Father
 - objc_msgSendSuper的工作原理应该是这样的:从objc_super结构体指向的superClass父类的方法列表开始查找selector，找到后以objc->receiver去调用父类的这个selector。注意，最后的调用者是objc->receiver，而不是super_class，所以执行的还是self这个对象，然后self是Son，所以输出的就是Son。
 
 - 其他：如果说父类实现了一个方法，那么调用的时候，其实就不同了，相当于子类执行了父类的方法。
+
+## runtime面试第二题
+
