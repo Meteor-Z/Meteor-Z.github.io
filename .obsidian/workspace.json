@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "a58e4501314c7b1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b54ec8f5e1611cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "770b4a9670333629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ios/408/oc.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "oc"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b783d3ff0c039e78",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b40debc3acd35b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb367a832e72ee3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "9caa354547f4ad4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f31e2f61270c31c7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "36f2780639ce7199",
+    "type": "split",
+    "children": [
+      {
+        "id": "764cbd9f6a3f958d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b1a66e31e9ff5b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/ios/408/oc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "oc 的反向链接列表"
+            }
+          },
+          {
+            "id": "e570220fabd07dd0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/ios/408/oc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "oc 的出链列表"
+            }
+          },
+          {
+            "id": "96c1ed439a1a7b77",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "cc5ac847b7ed2cd3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/ios/408/oc.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "oc 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "770b4a9670333629",
+  "lastOpenFiles": [
+    "docs/ios/408/other.md",
+    "docs/ios/408/oc.md",
+    "docs/ios/408/runloop.md",
+    "docs/ios/408/block.md",
+    "docs/ios/减包.md",
+    "docs/ios/ios_basic.md",
+    "docs/ios/lldb.md",
+    "docs/ios/memory_management.md",
+    "docs/tool/windows.md",
+    "docs/pre_intern.md",
+    "docs/web_build.md"
+  ]
+}
