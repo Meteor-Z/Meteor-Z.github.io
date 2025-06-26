@@ -37,9 +37,9 @@ OC中加入了很多新的概念，其中主要好似有instace object和class o
 
 以下是对象的相关关系
 
-![OC-Runtime](images/OC-Runtime.png)
+![OC-Runtime](OC-Runtime.png)
 
-![OC对象的存储](images/OC对象的存储.png)
+![OC对象的存储](OC对象的存储.png)
 
 ## 消息发送
 
