@@ -37,16 +37,15 @@ OC中加入了很多新的概念，其中主要好似有instace object和class o
 
 以下是对象的相关关系
 
-![OC-Runtime](OC-Runtime.png)
-
-![OC对象的存储](OC对象的存储.png)
+- ![OC-Runtime](OC-Runtime.png)
+- ![OC对象的存储](OC对象的存储.png)
 
 ## 消息发送
 
 OC中的调用方法是在Runtime运行期展开的，而不是像C/C++一样在编译期就确定了，所以与C++一样调到某一个地址就可以，大致的消息转发流程如下
 
 1. 先通过isa指针找到对应的类对象，或者是找到对应的meta-class
-   1. 如如果是实例对象（instance object）调用，那么就找到对饮的类对象（class object），如果是类方法调用，先找到对应的元对象（meta-class object）
+   1. 如如果是实例对象（instance object）调用，那么就找到对应的类对象（class object），如果是类方法调用，先找到对应的元对象（meta-class object）
 2. 如果当前找到了，那么就直接执行对应的方法就行了
 3. 如果没有找到，那么就通过类对象或者实例对象的superClass指针往上找，就是沿着他的父类找，一直往上找
 4. 如果最终找不到，那么就会Crash(当然，也会有补救错误)
