@@ -2,6 +2,9 @@
 title: Home
 ---
 
+<div style = "text-align: center; font-size: 3vw;">
+    Welcome to Meteor-Z's homepage!
+</div>
 
 <a href="https://github.com/Meteor-Z">
     <img src="images/profile-photo.jpg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo"/>

@@ -16,7 +16,7 @@ menu:
     - name: Home
       url: ""
       weight: 1
-    - name: About
+    - name: 关于
       url: "about/"
       weight: 2
     - name: 工作笔记
@@ -31,9 +31,12 @@ menu:
     - name: 标签
       url: "tags/"
       weight: 7
+    - name: 总结
+      url: "summarize/"
+      weight: 8
     - name: Tips
       url: "tips/"
-      weight: 7
+      weight: 9
     - name: 订阅
       url: "index.xml"
 
