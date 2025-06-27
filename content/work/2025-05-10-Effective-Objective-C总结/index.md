@@ -33,3 +33,10 @@ tags:
 3. forwardingInvocation直接兜底，要么吃掉，要么转发其他对象，要么换成其他消息，如果怎么都不行最后直接doesNotRecognizeSelector报错。
 
 ![消息转发](./消息转发.png)
+
+## 17 实现description方法
+
+顾名思义，主要是用于调试用的，在NSLog等控制台中进行调试，
+
+- 带上对象的地址
+- 带上对象的属性
