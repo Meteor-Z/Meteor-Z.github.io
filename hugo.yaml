@@ -19,8 +19,8 @@ menu:
     - name: 关于
       url: "about/"
       weight: 2
-    - name: 工作笔记
-      url: "work"
+    - name: 技术
+      url: "skill"
       weight: 3
     - name: 随笔笔记
       url: "posts/"
