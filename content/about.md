@@ -17,10 +17,15 @@ author: Meteor-Z
 - <img src="/images/logo/github.svg" width="16" style="vertical-align: middle;"/> [Meteor-Z](https://github.com/Meteor-Z)
 - <img src="/images/logo/envelope.svg" width="16" style="vertical-align: middle;"/> [liuzechen.coder@qq.com](mailto:liuzechen.coder@qq.com)
 - <img src="/images/logo/bilibili.svg" width="16" style="vertical-align: middle;"> [Meteor_Z7](https://space.bilibili.com/169994035)
+- <img src="/images/logo/zhihu.svg" width="16" style="vertical-aligin; middle;"> [MeteorZ](https://www.zhihu.com/people/newlzc)
 
 ## 工作经历
 
 ## 奖项
+
+## PDF
+
+[如何写一份漂亮的简历](/pdf/如何写一份漂亮的简历.pdf)
 
 
 
