@@ -4,6 +4,7 @@ title: "总结"
 
 ## 书籍
 
+- [Objective-C编程](https://book.douban.com/subject/19962787/)
 - [iOS编程(第四版，也就是oc版本)](https://book.douban.com/subject/26287812/)
 - [iOS网络高级编程：iPhone和iPad的企业应用开发](https://book.douban.com/subject/25919485/)
 - [Objective-C高级编程: iOS与OS X多线程和内存管理](https://book.douban.com/subject/24720270/)
