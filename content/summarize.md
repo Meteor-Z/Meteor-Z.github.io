@@ -13,7 +13,13 @@ title: "总结"
 - [高性能iOS应用开发](https://book.douban.com/subject/27013752/)
 - [九阴真经：iOS黑客攻防秘籍](https://book.douban.com/subject/34658682/)
 
-## 网络资源
+## 网络书籍/资源
 
 - [iOS-Core-Animation-Advanced-Techniques](https://zsisme.gitbooks.io/ios-/content/)
 - [iOS安全wiki](https://wizardforcel.gitbooks.io/ios-sec-wiki/content/index.html)
+
+## 文章
+
+- [iOS 保持界面流畅的技巧](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
+- [iOS App 签名的原理](https://wereadteam.github.io/2017/03/13/Signature/)
+- 

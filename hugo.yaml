@@ -31,7 +31,7 @@ menu:
     - name: 标签
       url: "tags/"
       weight: 7
-    - name: 总结
+    - name: 资料整理
       url: "summarize/"
       weight: 8
     - name: Tips
