@@ -2,6 +2,10 @@
 title: "总结"
 ---
 
+## 配置
+
+- [iOS开发资料整理]({{< relref "2025-07-05-iOS开发配置" >}})
+
 ## 书籍
 
 - [Objective-C编程](https://book.douban.com/subject/19962787/)

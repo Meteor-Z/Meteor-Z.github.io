@@ -19,7 +19,7 @@ menu:
     - name: 关于
       url: "about/"
       weight: 2
-    - name: 技术
+    - name: 技术笔记
       url: "skill"
       weight: 3
     - name: 随笔笔记
