@@ -26,4 +26,8 @@ title: "总结"
 
 - [iOS 保持界面流畅的技巧](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
 - [iOS App 签名的原理](https://wereadteam.github.io/2017/03/13/Signature/)
-- 
+- [iOS 性能优化梳理](https://github.com/skyming/iOS-Performance-Optimization)
+- 视图
+  - [setNeedsLayout VS layoutIfNeeded](https://github.com/pro648/tips/wiki/setNeedsLayout-VS-layoutIfNeeded)
+- 事件传递和响应相关
+  - [事件传递和响应链（Responder Chain](https://github.com/pro648/tips/wiki/%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%E5%92%8C%E5%93%8D%E5%BA%94%E9%93%BE%EF%BC%88Responder-Chain%EF%BC%89)
