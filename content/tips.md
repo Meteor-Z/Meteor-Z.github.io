@@ -29,3 +29,9 @@ slmgr -ato
 + 换一个好用的梯子
 + utools上搜网络重置
 + 关闭网络代理后，在cmd上直接ipconfig /flushdns 来刷新缓存，很奏效
+
+## MAC显示屏开启 HiDpi
+
+```shell
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+```
