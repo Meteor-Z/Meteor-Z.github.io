@@ -6,17 +6,13 @@ categories:
   - iOS
 tags:
   - iOS
-  - 汇编
+  - Xcode
 ---
 
-## 打开当前页面，快速跳转到左边的目录
+## 常用命令
 
 ```bash
-cmd + shift + j
-```
-
-## 快速打开某一个文件
-
-```bash
-cmd + shift + o
+cmd + shift + j # 在文件中，直接定位到左边的目录
+cmd + shift + o # 快速打卡某一个文件
+cmd + control + shift + a # 打开git，找凶手
 ```
