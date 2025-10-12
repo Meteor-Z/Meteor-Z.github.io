@@ -90,6 +90,10 @@ title: "总结"
 - iOS CoreAnimation 专题  
   - [原理篇（一）CALayer 与 UIView 之间的关系](https://zhuanlan.zhihu.com/p/358584869)  
   - [原理篇（二）UIView block 动画实现原理](https://zhuanlan.zhihu.com/p/358607565)
+  - [iOS CoreAnimation专题——技巧篇（二）CAShapeLayer with Bezier Path - Layer世界的神奇画笔](https://zhuanlan.zhihu.com/p/360351464)
+  - [iOS CoreAnimation专题——技巧篇（一）CADisplayLink –同步屏幕刷新的神器](https://zhuanlan.zhihu.com/p/360351464)
+  - [iOS CoreAnimation专题——技巧篇（三）Layer Masking - 图层蒙版](https://zhuanlan.zhihu.com/p/374433462)
+  - [iOS CoreAnimation专题——实战篇（一）惊艳的进度条效果实现 这一篇太骚了](https://zhuanlan.zhihu.com/p/374435139)
 
 ### 💬 面试题（建议使用 Chrome 打开）
 
