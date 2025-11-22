@@ -4,6 +4,14 @@ title: 常用Tips
 
 平时开发用的多的Tips，总结了以下
 
+## Chiesl
+
+```shell
+touch .lldbinit
+open .lldbinit
+command script import /usr/local/opt/chisel/libexec/fbchisellldb.py
+```
+
 ## Clang-Format
 
 [gist链接](https://gist.github.com/Meteor-Z/47e1c73852e0ae3999403992a6349650)
