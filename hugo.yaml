@@ -37,6 +37,8 @@ menu:
     - name: Tips
       url: "tips/"
       weight: 9
+    - name: 减肥
+      url: "减肥/"
     - name: 订阅
       url: "index.xml"
 
