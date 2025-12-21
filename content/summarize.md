@@ -6,25 +6,10 @@ title: "总结"
 
 - [iOS开发资料整理]({{< relref "2025-07-05-iOS开发配置" >}})
 
-## 书籍
-
-- [Objective-C编程](https://book.douban.com/subject/19962787/)
-- [iOS编程(第四版，也就是oc版本)](https://book.douban.com/subject/26287812/)
-- [iOS网络高级编程：iPhone和iPad的企业应用开发](https://book.douban.com/subject/25919485/)
-- [Objective-C高级编程: iOS与OS X多线程和内存管理](https://book.douban.com/subject/24720270/)
-- [深入解析Mac OS X & iOS操作系统](https://book.douban.com/subject/25870206/)
-- [iOS应用逆向与安全](https://book.douban.com/subject/30239776/)
-- [高性能iOS应用开发](https://book.douban.com/subject/27013752/)
-- [九阴真经：iOS黑客攻防秘籍](https://book.douban.com/subject/34658682/)
-
 ## 网络书籍/资源
 
 - [iOS-Core-Animation-Advanced-Techniques](https://zsisme.gitbooks.io/ios-/content/)
 - [iOS安全wiki](https://wizardforcel.gitbooks.io/ios-sec-wiki/content/index.html)
-
-## Crash
-
-- [iOS Crash Dump Analysis, Second Edition](https://faisalmemon.github.io/ios-crash-dump-analysis-book/zh/)
 
 ## 音视频
 
@@ -48,7 +33,7 @@ title: "总结"
 ## 性能
 
 - [性能优化合集](https://github.com/skyming/iOS-Performance-Optimization)
-- [iOS 保持界面流畅的技巧 ❌](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
+- [iOS 保持界面流畅的技巧](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
 
 ## 规范
 
@@ -56,7 +41,7 @@ title: "总结"
 
 ## Runtime
 
-- [Runtime ❌](https://github.com/Magic-Unique/Runtime/blob/master/A.%E5%89%8D%E8%A8%80.md)
+- [Runtime](https://github.com/Magic-Unique/Runtime/blob/master/A.%E5%89%8D%E8%A8%80.md)
 
 ## 线程
 
@@ -68,9 +53,12 @@ title: "总结"
 - iOS 架构篇文章  
   - [iOS 应用架构谈 · 开篇](https://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html)
 
-## AOP
+### MVVM
 
-- [iOS 无痕埋点解决方案——AOP 篇（1）](https://www.jianshu.com/p/2c68896aeb9b)
+写代码的时候，发现架构设计不合理，将MVC改成了MVVM的架构，我发现这种东西还是得自己写，"才有感觉"，最好的路子还是自己边写，边让身边的人看一下，如导师，他们的经验真的很强
+
+- [iOS应用架构谈 view层的组织和调用方案](https://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html)
+- [objc-MVVM 介绍](https://objccn.io/issue-13-1/)
 
 ## 面试题
 
@@ -92,7 +80,13 @@ title: "总结"
   - [iOS CoreAnimation专题——技巧篇（三）Layer Masking - 图层蒙版](https://zhuanlan.zhihu.com/p/374433462)
   - [iOS CoreAnimation专题——实战篇（一）惊艳的进度条效果实现 这一篇太骚了](https://zhuanlan.zhihu.com/p/374435139)
 
-## 面试题（建议使用 Chrome 打开）
+## 书籍
 
-- [使用系统的某些 block API（如 UIView 的 block 版本写动画时），是否也考虑引用循环问题？](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%EF%BC%88%E4%B8%8B%EF%BC%89.md#39-%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9F%90%E4%BA%9Bblock-api%E5%A6%82uiview%E7%9A%84block%E7%89%88%E6%9C%AC%E5%86%99%E5%8A%A8%E7%94%BB%E6%97%B6%E6%98%AF%E5%90%A6%E4%B9%9F%E8%80%83%E8%99%91%E5%BC%95%E7%94%A8%E5%BE%AA%E7%8E%AF%E9%97%AE%E9%A2%98:~:text=39.-,%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9F%90%E4%BA%9Bblock%20api%EF%BC%88%E5%A6%82UIView%E7%9A%84block%E7%89%88%E6%9C%AC%E5%86%99%E5%8A%A8%E7%94%BB%E6%97%B6%EF%BC%89%EF%BC%8C%E6%98%AF%E5%90%A6%E4%B9%9F%E8%80%83%E8%99%91%E5%BC%95%E7%94%A8%E5%BE%AA%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%9F,-%E6%B3%A8%EF%BC%9A39%E9%A2%98)
-- [这个写法会出什么问题：`@property (nonatomic, copy) NSMutableArray *arr;`](https://juejin.cn/post/7233293144451317821#:~:text=%E5%A4%8D%E5%88%B6%EF%BC%88%E6%B7%B1%E5%A4%8D%E5%88%B6%EF%BC%89%EF%BC%81-,%E8%BF%99%E4%B8%AA%E5%86%99%E6%B3%95%E4%BC%9A%E5%87%BA%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98%EF%BC%9A%40property%20(nonatomic%2C%20copy)%20NSMutableArray%20*arr%3B,-%E9%97%AE%E9%A2%98%EF%BC%9A%E6%B7%BB%E5%8A%A0%2C%E5%88%A0%E9%99%A4)
+- [Objective-C编程](https://book.douban.com/subject/19962787/)
+- [iOS编程(第四版，也就是oc版本)](https://book.douban.com/subject/26287812/)
+- [iOS网络高级编程：iPhone和iPad的企业应用开发](https://book.douban.com/subject/25919485/)
+- [Objective-C高级编程: iOS与OS X多线程和内存管理](https://book.douban.com/subject/24720270/)
+- [深入解析Mac OS X & iOS操作系统](https://book.douban.com/subject/25870206/)
+- [iOS应用逆向与安全](https://book.douban.com/subject/30239776/)
+- [高性能iOS应用开发](https://book.douban.com/subject/27013752/)
+- [九阴真经：iOS黑客攻防秘籍](https://book.douban.com/subject/34658682/)
