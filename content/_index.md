@@ -27,6 +27,8 @@ title: Home
 
 ## 名言警句
 
+___
+
 - 代码易写不易工，纵横交错臭虫生。
 - 测试之法全用上，总有漏网未得请。
 - 虫子虽小威力大，一旦发作如山崩。
@@ -36,4 +38,16 @@ title: Home
 - 调试时间威力大，快如闪电报军情。
 - 自动追踪最省力，清茶一蛊观码行。     - 摘自《软件调试》
 
+___
+
+<center>
+<span style="font-size: 24px;">
+There are only two hard things in Computer Science: cache invalidation and naming things.
+</span>
+</center>
+
+<p align="right"><em>— Phil Karlton</em></p>
+
 以下是我写的相关文章。
+
+
