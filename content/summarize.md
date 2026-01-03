@@ -58,6 +58,11 @@ title: "总结"
 写代码的时候，发现架构设计不合理，将MVC改成了MVVM的架构，我发现这种东西还是得自己写，"才有感觉"，最好的路子还是自己边写，边让身边的人看一下，如导师，他们的经验真的很强
 
 - [iOS应用架构谈 view层的组织和调用方案](https://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html)
+- 小篇章
+  - [论MVVM伪框架结构和MVC中M的实现机制](https://www.jianshu.com/p/33c7e2f3a613#comment-15133290)
+  - [iOS的MVC框架之模型层的构建](https://www.jianshu.com/p/fce02188edec)
+  - [iOS的MVC框架之控制层的构建(上)](https://www.jianshu.com/p/02d6397436dc)
+  - [iOS的MVC框架之控制层的构建(下)](https://juejin.cn/post/6844903566608433166)
 - [objc-MVVM 介绍](https://objccn.io/issue-13-1/)
 
 ## 面试题
