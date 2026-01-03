@@ -11,6 +11,18 @@ tags:
 
 ## 常见的调试命令
 
+```shell
+expr 变量 | 表达式 // 显示变或者表达式的数值
+expr -f h -- 变量 | 表达式 // 16进制格式显示变量或者表达式的数值
+expr -f b -- 变量 | 表达式 // 二进制的形式
+expr -i -- oc对象 // 等价于 po oc 对象
+expr -P 3 -- oc对象 // 上面命令的加强版，会显示内部的数据变量的结构
+expr my_struce->a = my_array[3] 赋值
+expr (char*)_cmd // 显示某一个oc变量的方法名
+expr (IMP)[self methodForSelector:_cmd] // 执行这个函数
+p (IMP)[self methodForSelector:_cmd] // 打印出当前函数的地址
+```
+
 ## 符号调试
 
 在Xcode设置符号断点即可。
