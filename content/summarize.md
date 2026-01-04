@@ -15,10 +15,6 @@ title: "总结"
 
 - [iOS AVDemo（1）：音频采集，免费获取全部源码丨音视频工程示例](https://mp.weixin.qq.com/s?__biz=MjM5MTkxOTQyMQ==&mid=2257484867&idx=1&sn=d857104930a86de8ab0bdf2358ca6283&chksm=a5d4e01192a36907ac113fcac5807807cc10d587713e0ff3f3bff116b7e3d15fadee92c51fe4&scene=21#wechat_redirect)
 
-## 相关网站
-
-- [awesome-tips](https://awesome-tips.gitbook.io/ios/you-hua)
-
 ## OC语言
 
 - [深复制、浅复制、copy、mutableCopy](https://github.com/pro648/tips/wiki/%E6%B7%B1%E5%A4%8D%E5%88%B6%E3%80%81%E6%B5%85%E5%A4%8D%E5%88%B6%E3%80%81copy%E3%80%81mutableCopy)
@@ -64,6 +60,18 @@ title: "总结"
   - [iOS的MVC框架之控制层的构建(上)](https://www.jianshu.com/p/02d6397436dc)
   - [iOS的MVC框架之控制层的构建(下)](https://juejin.cn/post/6844903566608433166)
 - [objc-MVVM 介绍](https://objccn.io/issue-13-1/)
+
+# Crash相关
+
+- [深入iOS系统底层之crash解决方法 （objc_msgSend相关）](https://www.jianshu.com/p/cf0945f9c1f8)
+- [深入解构objc_msgSend函数的实现](https://www.jianshu.com/p/df6629ec9a25)
+- [iOS疑难Crash的寄存器赋值追踪排查技术](https://www.jianshu.com/p/958d4f109bb0)
+- [货拉拉iOS疑难Crash治理-系统键盘语音](https://juejin.cn/post/7396463744186515465?searchId=20250108150822BCAC6FECA4AFF768AB6A)
+- [iOS疑难Crash-_dispatch_barrier_waiter_redirect_or_wake 崩溃治理](https://juejin.cn/post/7589494074983727155)
+- [iOS疑难Crash-iOS18.0+ BackBoardServices exit 崩溃治理](https://juejin.cn/post/7527224157832134696?searchId=2026010422195763B8512F21252A19E5D0)
+- [司机端稳定性治理和性能优化实践, crash分析视频](https://www.bilibili.com/video/BV1re4y1G7uf/)
+- [货拉拉iOS疑难Crash治理-TTS problem iOS 17](https://juejin.cn/post/7422401535214944268?searchId=2026010422195763B8512F21252A19E5D0)
+- 
 
 ## 面试题
 
