@@ -48,6 +48,13 @@ There are only two hard things in Computer Science: cache invalidation and namin
 
 <p align="right"><em>— Phil Karlton</em></p>
 
+<center>
+<span style="font-size:24px;">
+Think Twice, Code Once
+</span>
+</center>
+
+<br>
 以下是我写的相关文章。
 
 
