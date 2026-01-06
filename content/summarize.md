@@ -61,7 +61,7 @@ title: "总结"
   - [iOS的MVC框架之控制层的构建(下)](https://juejin.cn/post/6844903566608433166)
 - [objc-MVVM 介绍](https://objccn.io/issue-13-1/)
 
-# Crash相关
+## Crash相关
 
 - [深入iOS系统底层之crash解决方法 （objc_msgSend相关）](https://www.jianshu.com/p/cf0945f9c1f8)
 - [深入解构objc_msgSend函数的实现](https://www.jianshu.com/p/df6629ec9a25)
@@ -71,7 +71,6 @@ title: "总结"
 - [iOS疑难Crash-iOS18.0+ BackBoardServices exit 崩溃治理](https://juejin.cn/post/7527224157832134696?searchId=2026010422195763B8512F21252A19E5D0)
 - [司机端稳定性治理和性能优化实践, crash分析视频](https://www.bilibili.com/video/BV1re4y1G7uf/)
 - [货拉拉iOS疑难Crash治理-TTS problem iOS 17](https://juejin.cn/post/7422401535214944268?searchId=2026010422195763B8512F21252A19E5D0)
-- 
 
 ## 面试题
 
