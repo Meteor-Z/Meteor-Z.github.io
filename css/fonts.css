@@ -1,5 +1,7 @@
 body {
   font-family: "Times New Roman", SimSun, Arial, Optima, Candara, Calibri, sans-serif;
+   font-kerning: normal;
+   letter-spacing: 0.4px;
 }
 code {
   font-family: "Courier New", Courier, monospace, "Lucida Console", Monaco, monospace;
