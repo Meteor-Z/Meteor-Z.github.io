@@ -24,6 +24,15 @@ tags:
 - 如果直接访问实例变量，那么就不会触发KVO（也就是键值观察）？
 - 但是有时候可能使用懒加载，那么这时候可能就需要self.xxxx了，所以就有一个折中，如果是在写入的话，那么就通过设置方法self.xxx来做，如果是读取，那么就直接访问。
 
+### 具体例子
+
+在26年6月左右，我们组遇到了一个 Crash 问题，具体问题是：某一个对象在 dealloc 的时候，使用 self.xxx 访问了当前的局部变量，而 self.xxx 会实现懒加载，会调用 self.xxx 的 getter 方法，而 getter 方法中使用 weak_sellf 实现了一个 Block，导致这里出现Crash
+
+原因：对象在 dealloc 的过程中，对象此时正在析构，会将对象所指向的的 weak 都置为 nil，但此时又 weak 了一下 self，导致weak 的引用表状态不对，所以导致了 crash，
+
+解决方案：在 dealloc 中使用实例变量访问（即使用_xxxx 访问）
+
+
 ## 12 理解动态转发
 
 [这篇](https://juejin.cn/post/6844903600968171533)讲得不错，其中的[代码样例](https://gist.github.com/Meteor-Z/d59cfb165345779c29dfee682dcb96c8)。
