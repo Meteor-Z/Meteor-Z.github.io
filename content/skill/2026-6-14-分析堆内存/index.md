@@ -36,4 +36,21 @@ Xcode 中可以将 Memory Graph 导出，导出之后，可以使用 vmmap 和 l
 
 ## 图像
 
-图像的内存使用大小跟图像的尺寸有关，不跟图像的文件大小有关，
+`图像的内存使用大小跟图像的尺寸有关，跟图像的文件大小无关`
+
+图像显示到屏幕上，最终会展示成位图(Bitmap)的，一张图片的内存占用大约是 
+
+```text
+内存占用 = 内存占用 ≈ 宽 × 高 × 每像素字节数
+```
+
+![图片解压过程](./图片解压过程.png)
+
+> TODO: 不过这个是常规说法。现在ios支持yuv直接上屏，内存会减少超级多。preparingForDisplay这个接口
+
+
+## 参考资料
+
+[wwdc18-深入理解 iOS 内存](https://www.bilibili.com/video/BV1tE411f76p/?spm_id_from=333.337.search-card.all.click&vd_source=f1c89669d341702064db968ba68bdc30)
+
+[wwdc2018-图像和图形的最佳做法](https://www.bilibili.com/video/BV18E411f77E/?spm_id_from=333.337.search-card.all.click&vd_source=f1c89669d341702064db968ba68bdc30)
