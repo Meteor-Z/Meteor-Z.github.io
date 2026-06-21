@@ -38,11 +38,17 @@ Xcode 中可以将 Memory Graph 导出，导出之后，可以使用 vmmap 和 l
 
 `图像的内存使用大小跟图像的尺寸有关，跟图像的文件大小无关`
 
-图像显示到屏幕上，最终会展示成位图(Bitmap)的，一张图片的内存占用大约是 
+图像显示到屏幕上，最终会展示成位图(Bitmap)的，也就是说当前图片大小不是跟图像的文件大小有关，而是跟如下的的尺寸大小有关
 
 ```text
 内存占用 = 内存占用 ≈ 宽 × 高 × 每像素字节数
 ```
+
+这里有两个概念，data buffer 和 image buffer
+
+- data buffer:也就是数据，png 或者 jpg 的数据，此时都是字节，不是图像
+- image buffer:将 data buffer decode 之后，也就是解压之后，会放到 image buffer里面，image buffer 跟图像的大小是成正比的
+- frame buffer: iumage buffer 中的数据到 frame buffer后，渲染到屏幕上
 
 ![图片解压过程](./图片解压过程.png)
 
