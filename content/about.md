@@ -19,13 +19,10 @@ author: Meteor-Z
 - <img src="/images/logo/bilibili.svg" width="16" style="vertical-align: middle;"> [Meteor_Z7](https://space.bilibili.com/169994035)
 - <img src="/images/logo/zhihu.svg" width="16" style="vertical-aligin; middle;"> [MeteorZ](https://www.zhihu.com/people/newlzc)
 
-## 工作经历
-
-## 奖项
 
 ## 相关分享
 
-[如何写一份漂亮的简历](/pdf/如何写一份漂亮的简历.pdf)
+[如何写一份漂亮的简历](/pdf/如何写一份漂亮的简历.pdf) (毕业的时候，给学弟做的分享，里面的内容以现在的眼光来说，还是有欠缺的，不过也可以参考参考)
 
 
 
