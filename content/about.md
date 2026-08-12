@@ -7,8 +7,8 @@ author: Meteor-Z
 
 - iOS Developer
 - iOSer, C/C++, Linux
-- Work at Tencent Music
 - Study in ZZULI
+- 古法编程爱好者、古法编程非物质遗传承人（bushi
 
 ## 联系方式
 
