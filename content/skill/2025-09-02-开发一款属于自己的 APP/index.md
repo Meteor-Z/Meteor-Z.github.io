@@ -6,7 +6,8 @@ categories:
   - iOS
 tags:
   - iOS
-draft: true
+# draft: true
+mermaid: true
 ---
 
 这里目前还是草稿，draft状态，所以正式网站上看不到这的，如果你提前看到了，说明你翻了我的 github 仓库，我好感动，呜呜呜。
@@ -36,3 +37,19 @@ draft: true
 ### 设计
 
 APP 肯定还是需要原型图的。，这里直接写个需求背景，然后直接让AI 生成一个吧。
+
+## 整体架构
+
+```mermaid
+flowchart LR
+    A["APP"]
+    
+    A --> B["业务"]
+    A --> C["鸡架"]
+
+
+    C --> D["你好"]
+
+    
+
+```
