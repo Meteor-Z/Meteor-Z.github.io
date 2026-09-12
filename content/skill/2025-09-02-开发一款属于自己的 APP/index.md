@@ -6,7 +6,7 @@ categories:
   - iOS
 tags:
   - iOS
-# draft: true
+draft: true
 mermaid: true
 ---
 
@@ -49,13 +49,22 @@ flowchart LR
 
   鸡架 --> 路由
   鸡架 --> 组件化
+  
   鸡架 --> 基础组件
+
+  基础组件 --> 图像库SDWebImage
+  基础组件 --> 网络AFNetWorking
+  基础组件 --> UI查看器:Lookin
+  基础组件 --> Lottie
+
+  
 
 
   业务 --> 树洞
   业务 --> 公告
   业务 --> 类闲鱼社区
-  
+
+
   
   
   
