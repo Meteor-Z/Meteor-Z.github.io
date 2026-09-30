@@ -100,6 +100,12 @@ flowchart LR
 
 所以这里路由的选择，参考了 Runtime 形式的路由，具体原理可以参考 casa 的[实现](https://github.com/casatwy/CTMediator)，但我觉得他这里有一个问题，对于每一份路由，他会使用perfromSelector获取到Runtime 时期的方法返回值，然后返还给调用方，调用方这里使用 id 的形式接收，但其实可能是 UIViewController *,也有可能是某一个对象的指针，perfromSelector 获取的数值如果返回的话，可能会出现内存泄露，以及获取的数值不准确的问题，所以我这里就没有使用使用返回值，而是直接调用不产生返回值的形式，这样对于我来说，也够用
 
-> 曾经遇到过一个问题，通过 perfromSelector想要获取一个方法的返回值，此返回值是 BOOL，case 是 方法返回值返回的是 YES，但是 perfromSlector 之后反而是 NO,而且最骚的是此 Bug 是在 x86的模拟器上有问题，在真机上没有问题，
+> 曾经遇到过一个问题，通过 perfromSelector想要获取一个方法的返回值，此方法返回值是 BOOL，case 是 此方法返回值返回的是 YES，但是 perfromSlector 之后反而是 NO,而且最骚的是此 Bug 是在 x86的模拟器上有问题，在真机上没有问题，
 
 ### 传值
+
+待补充
+
+### 基础组件
+
+代码中其实会遇到很多的基础组件，比如说获取当前当前 View 的 left、right、width、heigth 等数值，又比如说对于 NSDictionary 中不能插入 nil，亦或者说是在从 NSDictionary 中取值的时候，应该有一个安全类型的判断，这些非常基础的方法，都要下沉到子库里面，基础思路其实就是给这些类加一些 Category，然后使用这些基础方法。
