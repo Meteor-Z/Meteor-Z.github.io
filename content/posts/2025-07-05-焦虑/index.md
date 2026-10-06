@@ -5,6 +5,7 @@ categories:
   - 感悟
 tags:
   - 感悟
+draft: true
 ---
 
 2025年7月2日我正式加入公司，那天刚好是聚会的时间，Android和iOS的1组和2组都参加了，总共40多人，没有情商、什么也不懂的我只会guang guang 吃着烧烤。
