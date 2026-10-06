@@ -5,6 +5,7 @@ categories:
   - 学习
 tags:
   - 学习
+draft: true
 ---
 
 这两天又开始搞Vim，为什么要学Vim?因为我想要装逼（bushi
