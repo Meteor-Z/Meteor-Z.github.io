@@ -37,6 +37,3 @@ Think Twice, Code Once
 - 将代码粘贴到相关网站([在线剪贴板](https://paste.nugine.xyz/))上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
 - 告知相关平台，并且如果有错误信息，也应该贴出来
 
-## 博客架构
-
-播客翻新过很多次，最初采用hexo等播客搭建，随后采用wordpress等播客，如今采用hugo进行搭建，并且使用[hugo-xmin](https://github.com/yihui/hugo-xmin)作为主题，因为不太想维护两个仓库，于是直接copy到theme下了，自己稍微修改了一下，再次表示十分的感谢。
