@@ -7,7 +7,11 @@ title: Home
 </div>
 
 <a href="https://github.com/Meteor-Z">
-    <img src="images/profile-photo.jpg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo"/>
+    <img
+        src="images/profile-photo.jpg"
+        style="max-width:15%; min-width:40px; float:right; border-radius:50%;"
+        alt="Github repo"
+    />
 </a>
 
 # Meteor-Z
