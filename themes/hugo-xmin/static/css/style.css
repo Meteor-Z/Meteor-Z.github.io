@@ -3,7 +3,6 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
-  font-size: 1.1em;
 }
 
 /* header and footer areas */
@@ -15,7 +14,6 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
-.terms { font-size: .9em; }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
@@ -35,7 +33,7 @@ code { background: #f9f9f9; }
 pre code { background: none; }
 
 /* misc elements */
-img, iframe, video { max-width: 90%; }
+img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
 blockquote {
   background: #f9f9f9;

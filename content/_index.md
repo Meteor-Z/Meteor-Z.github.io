@@ -2,7 +2,7 @@
 title: Home
 ---
 
-<div style = "text-align: center; font-size: 3vw;">
+<div style = "text-align: center; font-size: 2.5vw;">
     Welcome to Meteor-Z's homepage!
 </div>
 
@@ -40,4 +40,3 @@ Think Twice, Code Once
 - SSCCE: Short, Self Contained, Compilable, Example：代码要简短，并且可以完整运行
 - 将代码粘贴到相关网站([在线剪贴板](https://paste.nugine.xyz/))上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
 - 告知相关平台，并且如果有错误信息，也应该贴出来
-
