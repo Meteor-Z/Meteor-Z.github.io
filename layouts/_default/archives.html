@@ -5,29 +5,20 @@
 <main class="archives">
   <header class="archives-header">
     <h1>{{ .Title }}</h1>
-    <p>共 {{ len $articles }} 篇文章，按发布时间归档。</p>
+    <p>共计{{ len $articles }} 篇文章</p>
   </header>
 
   {{ range $articles.GroupByDate "2006" "desc" }}
   <section class="archives-year" aria-labelledby="year-{{ .Key }}">
     <h2 id="year-{{ .Key }}">{{ .Key }}</h2>
-    <ol class="archives-list">
+    <div class="archives-list">
       {{ range .Pages.ByDate.Reverse }}
-      <li>
+      <div class="archives-item">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time>
         <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-        <span class="archives-section">
-          {{- if or (eq .Section "skill") (eq .Section "-configuration") -}}
-            技术
-          {{- else if eq .Section "posts" -}}
-            随笔
-          {{- else -}}
-            {{ .Section }}
-          {{- end -}}
-        </span>
-      </li>
+      </div>
       {{ end }}
-    </ol>
+    </div>
   </section>
   {{ end }}
 </main>

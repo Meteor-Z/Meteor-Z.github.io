@@ -67,18 +67,16 @@ blockquote {
 .archives-list {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
-.archives-list li {
+.archives-item {
   display: grid;
-  grid-template-columns: 3.25rem minmax(0, 1fr) auto;
+  grid-template-columns: 3.25rem minmax(0, 1fr);
   gap: .9rem;
   align-items: baseline;
   padding: .55rem 0;
   border-bottom: 1px solid #eee;
 }
-.archives-list time,
-.archives-section {
+.archives-list time {
   color: #888;
   font-size: .8rem;
   font-variant-numeric: tabular-nums;
@@ -97,12 +95,6 @@ blockquote {
   }
   .archives-year h2 {
     margin-bottom: .5rem;
-  }
-  .archives-list li {
-    grid-template-columns: 3.25rem minmax(0, 1fr);
-  }
-  .archives-section {
-    display: none;
   }
 }
 
