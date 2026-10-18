@@ -31,8 +31,6 @@ menu:
     - name: 标签
       url: "tags/"
       weight: 7
-    - name: Crash分析
-      url: "crash/"
       weight: 8
     - name: 资料整理
       url: "summarize/"
