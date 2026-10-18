@@ -7,6 +7,7 @@ categories:
 tags:
   - iOS
   - 调试
+draft: true
 ---
 
 ## 常见的调试命令

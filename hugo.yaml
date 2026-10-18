@@ -25,7 +25,7 @@ menu:
     - name: 随笔笔记
       url: "posts/"
       weight: 4
-    - name: 文章总览
+    - name: 归档
       url: "archives/"
       weight: 5
     - name: 分类

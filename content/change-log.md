@@ -3,6 +3,7 @@ title: "ChangeLog"
 date: "2025-06-24"
 ---
 
+- 加入归档 ✅
 - 播客支持mermaid ✅
 - 初步将播客迁移至github pages，并且使用hugo-xmin作为主题 ✅
 - 完成github actions的实现 ✅

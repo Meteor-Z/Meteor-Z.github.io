@@ -7,6 +7,7 @@ categories:
 tags:
   - iOS
   - Xcode
+draft: true
 ---
 
 ## 常用命令
