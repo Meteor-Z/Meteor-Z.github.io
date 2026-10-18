@@ -18,6 +18,8 @@ title: Home
 
 ## _Even if this is just a lost game_
 
+## _Stay Hungry Stay Foolish_
+
 <center>
 <span style="font-size: 24px;">
 There are only two hard things in Computer Science: cache invalidation and naming things.
