@@ -41,6 +41,71 @@ blockquote {
   padding: 3px 1em 3px;
 }
 
+/* archives */
+.archives-header {
+  margin-bottom: 2.75rem;
+}
+.archives-header h1 {
+  margin-bottom: .35rem;
+}
+.archives-header p {
+  margin: 0;
+  color: #777;
+}
+.archives-year {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.archives-year h2 {
+  margin: .35rem 0 0;
+  color: #555;
+  font-size: 1.35rem;
+  font-weight: normal;
+}
+.archives-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.archives-list li {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr) auto;
+  gap: .9rem;
+  align-items: baseline;
+  padding: .55rem 0;
+  border-bottom: 1px solid #eee;
+}
+.archives-list time,
+.archives-section {
+  color: #888;
+  font-size: .8rem;
+  font-variant-numeric: tabular-nums;
+}
+.archives-list a {
+  color: inherit;
+  text-decoration: none;
+}
+.archives-list a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  .archives-year {
+    display: block;
+  }
+  .archives-year h2 {
+    margin-bottom: .5rem;
+  }
+  .archives-list li {
+    grid-template-columns: 3.25rem minmax(0, 1fr);
+  }
+  .archives-section {
+    display: none;
+  }
+}
+
 table {
   margin: auto;
   border-top: 1px solid #666;
