@@ -16,11 +16,12 @@ title: Home
 
 # Meteor-Z
 
-## _Even if this is just a lost game_
+<!-- ## _Even if this is just a lost game_ -->
 
 ## _Stay Hungry Stay Foolish_
 
-<center>
+Meteor-Z的个人博客
+<!-- <center>
 <span style="font-size: 24px;">
 There are only two hard things in Computer Science: cache invalidation and naming things.
 </span>
@@ -34,11 +35,13 @@ Think Twice, Code Once
 </span>
 </center>
 
-<br>
-
+<br> -->
+<!--
 ## 提问的艺术
 
 - 在询问之前要在网络上进行搜索相关的问题，看自己能不能解决掉
 - SSCCE: Short, Self Contained, Compilable, Example：代码要简短，并且可以完整运行
 - 将代码粘贴到相关网站([在线剪贴板](https://paste.nugine.xyz/))上进行发送，相关信息也要发送，不要使用手机拍照，不要进行截图
-- 告知相关平台，并且如果有错误信息，也应该贴出来
+- 告知相关平台，并且如果有错误信息，也应该贴出来 -->
+
+## 最近文章
