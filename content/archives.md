@@ -1,4 +1,4 @@
 ---
-title: "文章总览"
+title: "归档"
 layout: "archives"
 ---
