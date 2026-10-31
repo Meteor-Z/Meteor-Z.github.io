@@ -1,9 +1,17 @@
 body {
-  font-family: "Times New Roman", SimSun, Arial, Optima, Candara, Calibri, sans-serif;
-   font-kerning: normal;
-   letter-spacing: 0.4px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+    "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif;
+  font-kerning: normal;
 }
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+
 code {
-  font-family: "Courier New", Courier, monospace, "Lucida Console", Monaco, monospace;
   font-size: 100%;
 }
